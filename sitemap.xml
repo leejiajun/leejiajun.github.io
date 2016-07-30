@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://jiajun.org.cn/2016/07/30/test/</loc>
+    
+    <lastmod>2016-07-30T14:07:27.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://jiajun.org.cn/2016/07/30/Faster-R-CNN-Towards-Real-Time-Object-Detection-with-Region-Proposal-Networks%E7%A8%8B%E5%BA%8F-Python-%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93/</loc>
+    
+    <lastmod>2016-07-30T14:07:25.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://jiajun.org.cn/tags/index.html</loc>
     
     <lastmod>2016-07-30T13:45:05.000Z</lastmod>
@@ -16,23 +30,9 @@
   </url>
   
   <url>
-    <loc>http://jiajun.org.cn/2016/07/30/Faster-R-CNN-Towards-Real-Time-Object-Detection-with-Region-Proposal-Networks%E7%A8%8B%E5%BA%8F-Python-%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93/</loc>
-    
-    <lastmod>2016-07-30T13:33:03.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://jiajun.org.cn/about/index.html</loc>
     
     <lastmod>2016-07-30T13:31:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://jiajun.org.cn/2016/07/30/test/</loc>
-    
-    <lastmod>2016-07-30T08:56:13.000Z</lastmod>
     
   </url>
   

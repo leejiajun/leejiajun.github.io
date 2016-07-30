@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jiajun.org.cn/"/>
-  <updated>2016-07-30T13:33:03.000Z</updated>
+  <updated>2016-07-30T14:07:25.000Z</updated>
   <id>http://jiajun.org.cn/</id>
   
   <author>
@@ -20,11 +20,9 @@
     <link href="http://jiajun.org.cn/2016/07/30/Faster-R-CNN-Towards-Real-Time-Object-Detection-with-Region-Proposal-Networks%E7%A8%8B%E5%BA%8F-Python-%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93/"/>
     <id>http://jiajun.org.cn/2016/07/30/Faster-R-CNN-Towards-Real-Time-Object-Detection-with-Region-Proposal-Networks程序-Python-配置问题总结/</id>
     <published>2016-07-30T12:42:01.000Z</published>
-    <updated>2016-07-30T13:33:03.000Z</updated>
+    <updated>2016-07-30T14:07:25.000Z</updated>
     
-    <content type="html"><![CDATA[<p>#目录</p>
-<p>[TOC]</p>
-<h2 id="预先浏览"><a href="#预先浏览" class="headerlink" title="预先浏览"></a>预先浏览</h2><ul>
+    <content type="html"><![CDATA[<h2 id="预先浏览"><a href="#预先浏览" class="headerlink" title="预先浏览"></a>预先浏览</h2><ul>
 <li><a href="http://papers.nips.cc/paper/5638-faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks" target="_blank" rel="external">原文</a></li>
 <li><a href="https://github.com/rbgirshick/py-faster-rcnn" target="_blank" rel="external">源码(python)</a></li>
 <li><p><a href="http://m.blog.csdn.net/blog/anxiaoxi45/46522155" target="_blank" rel="external">推荐阅读</a></p>
@@ -103,21 +101,21 @@
     
     <summary type="html">
     
-      &lt;p&gt;#目录&lt;/p&gt;
-&lt;p&gt;[TOC]&lt;/p&gt;
-&lt;h2 id=&quot;预先浏览&quot;&gt;&lt;a href=&quot;#预先浏览&quot; class=&quot;headerlink&quot; title=&quot;预先浏览&quot;&gt;&lt;/a&gt;预先浏览&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://papers.nips.cc/p
+      &lt;h2 id=&quot;预先浏览&quot;&gt;&lt;a href=&quot;#预先浏览&quot; class=&quot;headerlink&quot; title=&quot;预先浏览&quot;&gt;&lt;/a&gt;预先浏览&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://papers.nips.cc/paper/5638-faster-r-cnn-t
     
     </summary>
     
-      <category term="Deep Learning" scheme="http://jiajun.org.cn/categories/Deep-Learning/"/>
+      <category term="原创" scheme="http://jiajun.org.cn/categories/%E5%8E%9F%E5%88%9B/"/>
     
+      <category term="科研" scheme="http://jiajun.org.cn/categories/%E5%8E%9F%E5%88%9B/%E7%A7%91%E7%A0%94/"/>
     
-      <category term="caffe" scheme="http://jiajun.org.cn/tags/caffe/"/>
     
       <category term="Faster R-CNN" scheme="http://jiajun.org.cn/tags/Faster-R-CNN/"/>
     
       <category term="Deep Learning" scheme="http://jiajun.org.cn/tags/Deep-Learning/"/>
+    
+      <category term="Caffe" scheme="http://jiajun.org.cn/tags/Caffe/"/>
     
   </entry>
   
@@ -126,12 +124,18 @@
     <link href="http://jiajun.org.cn/2016/07/30/test/"/>
     <id>http://jiajun.org.cn/2016/07/30/test/</id>
     <published>2016-07-30T08:56:13.000Z</published>
-    <updated>2016-07-30T08:56:13.000Z</updated>
+    <updated>2016-07-30T14:07:27.000Z</updated>
     
     <summary type="html">
     
     </summary>
     
+      <category term="原创" scheme="http://jiajun.org.cn/categories/%E5%8E%9F%E5%88%9B/"/>
+    
+      <category term="学习" scheme="http://jiajun.org.cn/categories/%E5%8E%9F%E5%88%9B/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="test" scheme="http://jiajun.org.cn/tags/test/"/>
     
   </entry>
   
