@@ -1,0 +1,948 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="caffe,Faster R-CNN,Deep Learning," />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
+
+
+
+
+
+
+<meta name="description" content="#目录
+[TOC]
+预先浏览
+原文
+源码(python)
+推荐阅读
+接下来列举源码配置过程中我遇到的问题，希望对大家有帮助。若有错误，还望指出。
+
+
+Q&amp;amp;AQ1: error: utils/bbox.c: No such file or directory: x86_64-linux-gnu-gcc: error: utils/bbox.c: No such file or directo">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks程序(Python)配置问题总结">
+<meta property="og:url" content="http://jiajun.org.cn/2016/07/30/Faster-R-CNN-Towards-Real-Time-Object-Detection-with-Region-Proposal-Networks程序-Python-配置问题总结/index.html">
+<meta property="og:site_name" content="Jiajun's Homepage">
+<meta property="og:description" content="#目录
+[TOC]
+预先浏览
+原文
+源码(python)
+推荐阅读
+接下来列举源码配置过程中我遇到的问题，希望对大家有帮助。若有错误，还望指出。
+
+
+Q&amp;amp;AQ1: error: utils/bbox.c: No such file or directory: x86_64-linux-gnu-gcc: error: utils/bbox.c: No such file or directo">
+<meta property="og:image" content="http://img.blog.csdn.net/20151221201645402">
+<meta property="og:updated_time" content="2016-07-30T12:43:23.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks程序(Python)配置问题总结">
+<meta name="twitter:description" content="#目录
+[TOC]
+预先浏览
+原文
+源码(python)
+推荐阅读
+接下来列举源码配置过程中我遇到的问题，希望对大家有帮助。若有错误，还望指出。
+
+
+Q&amp;amp;AQ1: error: utils/bbox.c: No such file or directory: x86_64-linux-gnu-gcc: error: utils/bbox.c: No such file or directo">
+<meta name="twitter:image" content="http://img.blog.csdn.net/20151221201645402">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"always"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 0,
+      author: '博主'
+    }
+  };
+</script>
+
+
+
+
+  <link rel="canonical" href="http://jiajun.org.cn/2016/07/30/Faster-R-CNN-Towards-Real-Time-Object-Detection-with-Region-Proposal-Networks程序-Python-配置问题总结/"/>
+
+  <title> Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks程序(Python)配置问题总结 | Jiajun's Homepage </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?0b1261b2bc7d649ccbd6c0f3aa1c4203";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">Jiajun's Homepage</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle"></p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="st-search-show-outputs">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <form class="site-search-form">
+  <input type="text" id="st-search-input" class="st-search-input st-default-search-input" />
+</form>
+
+<script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+  _st('install', 'NzNdXQt7Eek-Vm6sGFQc','2.0.0');
+</script>
+
+
+
+    </div>
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks程序(Python)配置问题总结
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-07-30T20:42:01+08:00" content="2016-07-30">
+              2016-07-30
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/07/30/Faster-R-CNN-Towards-Real-Time-Object-Detection-with-Region-Proposal-Networks程序-Python-配置问题总结/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2016/07/30/Faster-R-CNN-Towards-Real-Time-Object-Detection-with-Region-Proposal-Networks程序-Python-配置问题总结/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/2016/07/30/Faster-R-CNN-Towards-Real-Time-Object-Detection-with-Region-Proposal-Networks程序-Python-配置问题总结/" class="leancloud_visitors" data-flag-title="Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks程序(Python)配置问题总结">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>#目录</p>
+<p>[TOC]</p>
+<h2 id="预先浏览"><a href="#预先浏览" class="headerlink" title="预先浏览"></a>预先浏览</h2><ul>
+<li><a href="http://papers.nips.cc/paper/5638-faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks" target="_blank" rel="external">原文</a></li>
+<li><a href="https://github.com/rbgirshick/py-faster-rcnn" target="_blank" rel="external">源码(python)</a></li>
+<li><p><a href="http://m.blog.csdn.net/blog/anxiaoxi45/46522155" target="_blank" rel="external">推荐阅读</a></p>
+<p>接下来列举源码配置过程中我遇到的问题，希望对大家有帮助。若有错误，还望指出。</p>
+</li>
+</ul>
+<h2 id="Q-amp-A"><a href="#Q-amp-A" class="headerlink" title="Q&amp;A"></a>Q&amp;A</h2><p><strong>Q1: error: utils/bbox.c: No such file or directory</strong><br>: x86_64-linux-gnu-gcc: error: utils/bbox.c: No such file or directory<br>x86_64-linux-gnu-gcc: fatal error: no input files<br>compilation terminated.<br>error: command ‘x86_64-linux-gnu-gcc’ failed with exit status 4<br>make: <em>*</em> [all] Error 1</p>
+<p><strong>A1: </strong> 手动用python生成bbox.c<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd $FRCN_ROOT/lib/utils</div><div class="line">cython bbox.pyx</div></pre></td></tr></table></figure></p>
+<p><strong>Q2: error: nms/cpu_nms.c: No such file or directory</strong><br>: x86_64-linux-gnu-gcc: error: nms/cpu_nms.c: No such file or directory<br>x86_64-linux-gnu-gcc: fatal error: no input files<br>compilation terminated.<br>error: command ‘x86_64-linux-gnu-gcc’ failed with exit status 4<br>make: <em>*</em> [all] Error 1</p>
+<p><strong>A2: </strong> 手动用python生成cpu_nms.c<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd $FRCN_ROOT/lib/nms</div><div class="line">cython cpu_nms.pyx</div></pre></td></tr></table></figure></p>
+<p><strong>Q3: error: nms/gpu_nms.c: No such file or directory</strong><br>: x86_64-linux-gnu-gcc: error: nms/gpu_nms.c: No such file or directory<br>x86_64-linux-gnu-gcc: fatal error: no input files<br>compilation terminated.<br>error: command ‘x86_64-linux-gnu-gcc’ failed with exit status 4<br>make: <em>*</em> [all] Error 1</p>
+<p><strong>A3: </strong> 手动用cython生成gpu_nms.c<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd $FRCN_ROOT/lib/nms</div><div class="line">cython gpu_nms.pyx</div></pre></td></tr></table></figure></p>
+<p><strong>Q4: Makefile.config not found</strong><br>: Makefile:6: <em>*</em> Makefile.config not found. See Makefile.config.example..  Stop.</p>
+<p><strong>A4: </strong> $FRCN_ROOT/caffe-fast-rcnn目录下，作者提供了Makefile.config.example<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd $FRCN_ROOT/caffe-fast-rcnn</div><div class="line">cp Makefile.config.example Makefile.config</div></pre></td></tr></table></figure></p>
+<p><strong>Q5: undefined symbol: _nms</strong></p>
+<ul>
+<li>当在$FRCN_ROOT/lib下make时出现<br>: Traceback (most recent call last):<br>File “./demo.py”, line 18, in module<br>from fast_rcnn.test import im_detect<br>File “/home/lijiajun/py-faster-rcnn-blog/tools/../lib/fast_rcnn/test.py”, line 17, in module<br>from fast_rcnn.nms_wrapper import nms<br>File “/home/lijiajun/py-faster-rcnn-blog/tools/../lib/fast_rcnn/nms_wrapper.py”, line 9, in module<br>from nms.gpu_nms import gpu_nms<br>ImportError: /home/lijiajun/py-faster-rcnn-blog/tools/../lib/nms/gpu_nms.so: undefined symbol: _nms</li>
+</ul>
+<p><strong>A5: </strong> gpu_nms.so编译时有误</p>
+<ul>
+<li>编辑setup.py</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd $FRCN_ROOT/lib</div><div class="line">vim setup.py</div></pre></td></tr></table></figure>
+<ul>
+<li>将gpu_nms.pyx改为gpu_nms.cpp</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">Extension(<span class="string">'nms.gpu_nms'</span>,</div><div class="line">    [<span class="string">'nms/nms_kernel.cu'</span>, <span class="string">'nms/gpu_nms.pyx'</span>],</div><div class="line">    ...</div></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">Extension(<span class="string">'nms.gpu_nms'</span>,</div><div class="line">    [<span class="string">'nms/nms_kernel.cu'</span>, <span class="string">'nms/gpu_nms.cpp'</span>],</div><div class="line">    ...</div></pre></td></tr></table></figure>
+<ul>
+<li>修改gpu_nms.c文件后缀为.cpp</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">cd $FRCN_ROOT/lib/nms</div><div class="line">mv gpu_nms.c gpu_nms.cpp</div><div class="line">rm gpu_nms.so</div></pre></td></tr></table></figure>
+<p><strong>Q6: Check failed: registry.count(type) == 1 (0 vs. 1) Unknown layer type</strong><br>: I1221 19:43:06.790405 12895 layer_factory.hpp:76] Creating layer proposal<br>F1221 19:43:06.790431 12895 layer_factory.hpp:80] Check failed: registry.count(type) == 1 (0 vs. 1) Unknown layer type: Python (known types: AbsVal, Accuracy, ArgMax, BNLL, Concat, ContrastiveLoss, Convolution, Data, Deconvolution, Dropout, DummyData, Eltwise, Embed, EuclideanLoss, Exp, Filter, Flatten, HDF5Data, HDF5Output, HingeLoss, Im2col, ImageData, InfogainLoss, InnerProduct, LRN, Log, MVN, MemoryData, MultinomialLogisticLoss, PReLU, Pooling, Power, ROIPooling, ReLU, Reduction, Reshape, SPP, Sigmoid, SigmoidCrossEntropyLoss, Silence, Slice, SmoothL1Loss, Softmax, SoftmaxWithLoss, Split, TanH, Threshold, Tile, WindowData)<br>*** Check failure stack trace: ***<br>Aborted (core dumped)</p>
+<p><strong>A6: </strong> caffe的Makefile.config配置有误</p>
+<ul>
+<li>Note: Caffe must be built with support for Python layers!<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># In your Makefile.config, make sure to have this line uncommented</span></div><div class="line">WITH_PYTHON_LAYER := <span class="number">1</span></div></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>修改完成后<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">cd $FRCN_ROOT/caffe-fast-rcnn</div><div class="line">make clean</div><div class="line">make -j</div><div class="line">make pycaffe</div></pre></td></tr></table></figure></p>
+<p><strong>Q6: ImportError: No module named _caffe</strong><br>: Traceback (most recent call last):<br>  File “./demo.py”, line 18, in &lt; module&gt;<br>    from fast_rcnn.test import im_detect<br>  File “/home/lijiajun/py-faster-rcnn-blog/tools/../lib/fast_rcnn/test.py”, line 16, in &lt; module><br>    import caffe<br>  File “/home/lijiajun/py-faster-rcnn-blog/tools/../caffe-fast-rcnn/python/caffe/<strong>init</strong>.py”, line 1, in &lt; module&gt;<br>    from .pycaffe import Net, SGDSolver<br>  File “/home/lijiajun/py-faster-rcnn-blog/tools/../caffe-fast-rcnn/python/caffe/pycaffe.py”, line 13, in &lt; module&gt;<br>    from ._caffe import Net, SGDSolver<br>ImportError: No module named _caffe</p>
+<p><strong>A7: </strong> 没有编译pycaffe<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd $FRCN_ROOT/caffe-fast-rcnn</div><div class="line">make pycaffe</div></pre></td></tr></table></figure></p>
+<p><strong>Q8: tkinter.TclError: no display name and no $DISPLAY environment variable</strong><br>: Traceback (most recent call last):<br>  File “./demo.py”, line 149, in &lt; module&gt;<br>  demo(net, im_name)<br>  File “./demo.py”, line 98, in demo<br>  vis_detections(im, cls, dets, thresh=CONF_THRESH)<br>  File “./demo.py”, line 47, in vis_detections<br>  fig, ax = plt.subplots(figsize=(12, 12))<br>  File “/usr/lib/pymodules/python2.7/matplotlib/pyplot.py”, line 1046, in subplots<br>  fig = figure(<strong>fig_kw)<br>  File “/usr/lib/pymodules/python2.7/matplotlib/pyplot.py”, line 423, in figure</strong>kwargs)<br>  File “/usr/lib/pymodules/python2.7/matplotlib/backends/backend_tkagg.py”, line 79, in new_figure_manager<br>  return new_figure_manager_given_figure(num, figure)<br>  File “/usr/lib/pymodules/python2.7/matplotlib/backends/backend_tkagg.py”, line 87, in new_figure_manager_given<em>figure<br>  window = Tk.Tk()<br>  File “/usr/lib/python2.7/lib-tk/Tkinter.py”, line 1767, in \</em>_init__<br>  self.tk = _tkinter.create(screenName, baseName, className, interactive, wantobjects, useTk, sync, use)<br>  _tkinter.TclError: no display name and no $DISPLAY environment variable</p>
+<p><strong>A8: </strong> 缺少可视化环境引起的</p>
+<ol>
+<li><p>切换到图形界面后在执行脚本。</p>
+</li>
+<li><p>或者，修改demo.py，将调用函数vis_detections()的代码注释。</p>
+</li>
+</ol>
+<p><strong>Q9:  invalid conversion from ‘const int<em>’ to ‘int</em>’</strong><br>: nms/gpu_nms.cpp: In function ‘PyObject<em> __pyx_pf_3nms_7gpu_nms_gpu_nms(PyObject</em>, PyArrayObject<em>, PyObject</em>, <strong>pyx_t_5numpy_int32_t)’:<br>nms/gpu_nms.cpp:1593:469: error: invalid conversion from ‘const int<em>’ to ‘int</em>’ [-fpermissive]<br>   _nms((&amp;(*</strong>Pyx_BufPtrStrided1d(const int <em>, <strong>pyx_pybuffernd_keep.rcbuffer-&gt;pybuffer.buf, </strong>pyx_t_10, <strong>pyx_pybuffernd_keep.diminfo[0].strides))), (&amp;</strong>pyx_v_num_out), (&amp;(</em><strong>Pyx_BufPtrStrided2d(</strong>pyx_t_5numpy_float32_t <em>, <strong>pyx_pybuffernd_sorted_dets.rcbuffer-&gt;pybuffer.buf, </strong>pyx_t_12, <strong>pyx_pybuffernd_sorted_dets.diminfo[0].strides, </strong>pyx_t_13, <strong>pyx_pybuffernd_sorted_dets.diminfo[1].strides))), </strong>pyx_v_boxes_num, <strong>pyx_v_boxes_dim, </strong>pyx_t_14, __pyx_v_device_id);<br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ^<br>In file included from nms/gpu_nms.cpp:253:0:<br>nms/gpu_nms.hpp:1:6: error:   initializing argument 1 of ‘void _nms(int</em>, int<em>, const float</em>, int, int, float, int)’ [-fpermissive]<br> void _nms(int<em> keep_out, int</em> num_out, const float<em> boxes_host, int boxes_num,int boxes_dim, float nms_overlap_thresh, int device_id);<br>      ^<br>error: command ‘arm-linux-gnueabihf-gcc’ failed with exit status 1<br>make: **</em> [all] Error 1</p>
+<p><strong>A9: </strong><br>: 原因就是C语言编译器允许隐含性的将一个通用指针转换为任意类型的指针，包括const <em>而C＋＋不允许将const 转换为非const</em>，所以出错。<br>将出错的函数变量__pyx_t_5numpy_int32_t<em>，改成int</em>。接着，为了保证gpu_nms.cpp不再由gpu_nms.pyx自动生成，需要将setup.py中ext_modules数组下的nms/gpu_nms.pyx改为nms/gpu_nms.cpp。</p>
+<ul>
+<li><p><strong>error:</strong><br>_nms((&amp;(<em><strong>Pyx_BufPtrStrided1d(<font color="Crimson"></font></strong>pyx_t_5numpy_int32_t \</em>, <strong>pyx_pybuffernd_keep.rcbuffer-&gt;pybuffer.buf, </strong>pyx_t_10, <strong>pyx_pybuffernd_keep.diminfo[0].strides))), (&amp;</strong>pyx_v_num_out), (&amp;(<em><strong>Pyx_BufPtrStrided2d(</strong>pyx_t_5numpy_float32_t </em>, <strong>pyx_pybuffernd_sorted_dets.rcbuffer-&gt;pybuffer.buf, </strong>pyx_t_12, <strong>pyx_pybuffernd_sorted_dets.diminfo[0].strides, </strong>pyx_t_13, <strong>pyx_pybuffernd_sorted_dets.diminfo[1].strides))), </strong>pyx_v_boxes_num, <strong>pyx_v_boxes_dim, </strong>pyx_t_14, __pyx_v_device_id);</p>
+</li>
+<li><p><strong>correct:</strong><br>_nms((&amp;(<em>__Pyx_BufPtrStrided1d(<font color="Crimson">int\</font></em>, <strong>pyx_pybuffernd_keep.rcbuffer-&gt;pybuffer.buf, </strong>pyx_t_10, <strong>pyx_pybuffernd_keep.diminfo[0].strides))), (&amp;</strong>pyx_v_num_out), (&amp;(<em><strong>Pyx_BufPtrStrided2d(</strong>pyx_t_5numpy_float32_t </em>, <strong>pyx_pybuffernd_sorted_dets.rcbuffer-&gt;pybuffer.buf, </strong>pyx_t_12, <strong>pyx_pybuffernd_sorted_dets.diminfo[0].strides, </strong>pyx_t_13, <strong>pyx_pybuffernd_sorted_dets.diminfo[1].strides))), </strong>pyx_v_boxes_num, <strong>pyx_v_boxes_dim, </strong>pyx_t_14, __pyx_v_device_id);</p>
+</li>
+</ul>
+<p><strong>Q10:Check failed: error == cudaSuccess (8 vs. 0) invalid device function</strong><br>: GPU too old or Cuda too old. Faster R-CNN的Issue讨论得还比较清楚。</p>
+<p>: Whenever the CUDA runtime API returns “Invalid Device Function”, it means you are using code which wasn’t built for the architecture you are trying to run it on (and doesn’t have a JIT path).</p>
+<p><strong>A10:</strong><br>: 解决方案请参考</p>
+<ul>
+<li><a href="https://github.com/rbgirshick/py-faster-rcnn/issues/2" target="_blank" rel="external">Github Issue #2</a></li>
+<li><a href="http://stackoverflow.com/questions/33276539/caffe-cuda-error-8-vs-0-invalid-device-function-when-using-gpu-geforce-gt" target="_blank" rel="external">Stack overflow</a></li>
+</ul>
+<p><strong>Q11:Check failed: error == cudaSuccess (8 vs. 0) invalid device function</strong><br>: Error using textread (line 165)<br>File not found.<br>Error in VOCevaldet (line 30)<br>[ids,confidence,b1,b2,b3,b4]=textread(sprintf(VOCopts.detrespath,id,cls),’%s %f %f %f %f %f’);<br>Error in voc_eval&gt;voc_eval_cls (line 36)<br>  [recall, prec, ap] = VOCevaldet(VOCopts, comp_id, cls, true);<br>Error in voc_eval (line 8)<br>  res(i) = voc_eval_cls(cls, VOCopts, comp_id, output_dir, rm_res);<br>165     error(message(‘MATLAB:textread:FileNotFound’));</p>
+<p><strong>A11:</strong><br>: In VOCCode, inside the VOCdevkit folder, there will be a file called VOCinit.m .<br>In that, on around line 31, change the VOC.testset to ‘test’ instead of ‘val’</p>
+<hr>
+<p>2016年2月26日更新<br><strong>Q12:Check failed: error == cudaSuccess (8 vs. 0) invalid device function</strong><br>: python setup.py build_ext –inplace<br>Traceback (most recent call last):<br>  File “setup.py”, line 57, in <module><br>    CUDA = locate_cuda()<br>  File “setup.py”, line 54, in locate_cuda<br>    raise EnvironmentError(‘The CUDA %s path could not be located in %s’ % (k, v))<br>EnvironmentError: The CUDA lib64 path could not be located in /usr/local/cuda/lib64<br>make: <em>*</em> [all] Error 1</module></p>
+<p><strong>A12:</strong><br>: 修改lib/setup.py中cudaconfig元组中lib64的值， ‘lib64’-&gt;’lib’。因为设备不支持64位运算，所以cuda缺少lib64文件。</p>
+<hr>
+<p><strong>reference: </strong><br>: <a href="https://github.com/rbgirshick/fast-rcnn/issues/28" target="_blank" rel="external">Github issues1</a><br><a href="https://github.com/rbgirshick/fast-rcnn/issues/42" target="_blank" rel="external">Github issues2</a></p>
+<hr>
+<p>最终效果图</p>
+<p><img src="http://img.blog.csdn.net/20151221201645402" alt="最终效果"></p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/caffe/" rel="tag">#caffe</a>
+          
+            <a href="/tags/Faster-R-CNN/" rel="tag">#Faster R-CNN</a>
+          
+            <a href="/tags/Deep-Learning/" rel="tag">#Deep Learning</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/07/30/test/" rel="next" title="test">
+                <i class="fa fa-chevron-left"></i> test
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/uploads/jiajun.png"
+               alt="Lee Jiajun (李佳骏)" />
+          <p class="site-author-name" itemprop="name">Lee Jiajun (李佳骏)</p>
+          <p class="site-description motion-element" itemprop="description">I am a Ph.D. student in ICT, CAS.</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">3</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="linkk" target="_blank" title="Link">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  Link
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/leejiajun" target="_blank" title="Github">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  Github
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/p/1005052841242582" target="_blank" title="Weibo">
+                  
+                    <i class="fa fa-fw fa-weibo"></i>
+                  
+                  Weibo
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://www.facebook.com/profile.php?id=100006144016792" target="_blank" title="Facebook">
+                  
+                    <i class="fa fa-fw fa-facebook"></i>
+                  
+                  Facebook
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://cn.linkedin.com/in/佳骏-李-a37594ab" target="_blank" title="LinkedIn">
+                  
+                    <i class="fa fa-fw fa-linkedin"></i>
+                  
+                  LinkedIn
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+          <div class="cc-license motion-element" itemprop="license">
+            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" target="_blank">
+              <img src="/images/cc-by-nc-sa.svg" alt="Creative Commons" />
+            </a>
+          </div>
+        
+
+        
+        
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#预先浏览"><span class="nav-number">1.</span> <span class="nav-text">预先浏览</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Q-amp-A"><span class="nav-number">2.</span> <span class="nav-text">Q&A</span></a></li></ol></div>
+            
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2016-7 - 
+  <span itemprop="copyrightYear">2016</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Lee Jiajun (李佳骏)</span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+
+
+
+  
+
+
+
+  
+
+    <script type="text/javascript">
+      var disqus_shortname = 'jiajun-org-cn';
+      var disqus_identifier = '2016/07/30/Faster-R-CNN-Towards-Real-Time-Object-Detection-with-Region-Proposal-Networks程序-Python-配置问题总结/';
+      var disqus_title = "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks程序(Python)配置问题总结";
+      var disqus_url = 'http://jiajun.org.cn/2016/07/30/Faster-R-CNN-Towards-Real-Time-Object-Detection-with-Region-Proposal-Networks程序-Python-配置问题总结/';
+
+      function run_disqus_script(disqus_script){
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      }
+
+      run_disqus_script('count.js');
+      
+        run_disqus_script('embed.js');
+      
+    </script>
+  
+
+
+
+
+  
+  
+
+  
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+  </script>
+
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+      var all = MathJax.Hub.getAllJax(), i;
+      for (i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+      }
+    });
+  </script>
+  <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script>AV.initialize("QeI6kpSbCcpqRtL14XiGgkgB-gzGzoHsz", "EmujILo4HzhLccrXcCh1wVFp");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+
+</body>
+</html>
