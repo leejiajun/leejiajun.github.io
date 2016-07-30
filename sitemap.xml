@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://jiajun.org.cn/about/index.html</loc>
+    
+    <lastmod>2016-07-30T13:31:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://jiajun.org.cn/categories/index.html</loc>
     
     <lastmod>2016-07-30T13:30:15.000Z</lastmod>
@@ -30,14 +37,14 @@
   </url>
   
   <url>
-    <loc>http://jiajun.org.cn/404.html</loc>
+    <loc>http://jiajun.org.cn/about.html</loc>
     
     <lastmod>2016-07-30T08:08:16.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://jiajun.org.cn/about.html</loc>
+    <loc>http://jiajun.org.cn/404.html</loc>
     
     <lastmod>2016-07-30T08:08:16.000Z</lastmod>
     
