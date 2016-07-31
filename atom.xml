@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Jiajun</title>
+  <title>Lee Jiajun (李佳骏&lt;i class=&quot;icon-question-sign&quot;&gt;&lt;/i&gt;)</title>
   <subtitle>Hompage</subtitle>
   <link href="/atom.xml" rel="self"/>
   
@@ -9,7 +9,7 @@
   <id>http://jiajun.org.cn/</id>
   
   <author>
-    <name>Lee Jiajun  (李佳骏)</name>
+    <name>Lee Jiajun</name>
     
   </author>
   
@@ -34,15 +34,15 @@
     <link href="http://jiajun.org.cn/2016/07/30/Aoubut%20Me/"/>
     <id>http://jiajun.org.cn/2016/07/30/Aoubut Me/</id>
     <published>2016-07-30T12:42:01.000Z</published>
-    <updated>2016-07-31T07:12:49.000Z</updated>
+    <updated>2016-07-31T07:58:36.000Z</updated>
     
-    <content type="html"><![CDATA[<p> <img src="./img/jiajun.jpg" width="200" margin-left＝"20"="" style="float:left;" alt="jiajun"><br>I am a Ph.D. Candidate at State Key Laboratory of Computer Architecture in The Institute of Computing Technology of the Chinese Academy of Sciences. I received my bachelor degree in Computer Science from Tsinghua University.</p>
+    <content type="html"><![CDATA[<p><img src="./img/jiajun.jpg" width="150" style="float:left; margin-top:10px; margin-right:20px" alt="jiajun"> I am a Ph.D. Candidate at State Key Laboratory of Computer Architecture in The Institute of Computing Technology of the Chinese Academy of Sciences. Before coming to CAS, I got my bachelor degree (2016) from Department of Information Engineering, China University of Geosciences(Wuhan)</p>
 <p>My research focuses on understanding individual behaviors at the micro level and community dynamics at the macro level. I aim to harness emerging data in social interactions to explain and predict human decisions, whereby enhancing social and technological systems. I am currently supported by a Facebook fellowship. Here is my CV.</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt; &lt;img src=&quot;./img/jiajun.jpg&quot; width=&quot;200&quot; margin-left＝&quot;20&quot;=&quot;&quot; style=&quot;float:left;&quot; alt=&quot;jiajun&quot;&gt;&lt;br&gt;I am a Ph.D. Candidate at State Key Lab
+      &lt;p&gt;&lt;img src=&quot;./img/jiajun.jpg&quot; width=&quot;150&quot; style=&quot;float:left; margin-top:10px; margin-right:20px&quot; alt=&quot;jiajun&quot;&gt; I am a Ph.D. Candidate at St
     
     </summary>
     
