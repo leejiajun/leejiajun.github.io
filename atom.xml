@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jiajun.org.cn/"/>
-  <updated>2016-07-31T08:04:17.000Z</updated>
+  <updated>2016-07-31T09:22:35.000Z</updated>
   <id>http://jiajun.org.cn/</id>
   
   <author>
@@ -16,33 +16,24 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Aoubut Me</title>
-    <link href="http://jiajun.org.cn/2016/07/30/Aoubut%20Me/"/>
-    <id>http://jiajun.org.cn/2016/07/30/Aoubut Me/</id>
-    <published>2016-07-30T12:42:01.000Z</published>
-    <updated>2016-07-31T08:04:17.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="./img/jiajun.jpg" width="150" style="float:left; margin-top:10px; margin-right:20px" alt="jiajun"> I am a Ph.D. Candidate at State Key Laboratory of Computer Architecture in The Institute of Computing Technology of the Chinese Academy of Sciences. Before coming to CAS, I got my bachelor degree (2016) from Department of Information Engineering, China University of Geosciences(Wuhan)</p>
-<p>My research focuses on understanding individual behaviors at the micro level and community dynamics at the macro level. I aim to harness emerging data in social interactions to explain and predict human decisions, whereby enhancing social and technological systems. I am currently supported by a Facebook fellowship. Here is my CV.</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;./img/jiajun.jpg&quot; width=&quot;150&quot; style=&quot;float:left; margin-top:10px; margin-right:20px&quot; alt=&quot;jiajun&quot;&gt; I am a Ph.D. Candidate at St
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Contact</title>
     <link href="http://jiajun.org.cn/2016/07/30/Contact/"/>
     <id>http://jiajun.org.cn/2016/07/30/Contact/</id>
     <published>2016-07-30T12:42:01.000Z</published>
-    <updated>2016-07-31T06:00:47.000Z</updated>
+    <updated>2016-07-31T09:22:35.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Address"><a href="#Address" class="headerlink" title="Address"></a>Address</h1><p>&#160; &#160; &#160; &#160;No.6 Kexueyuan South Road Zhongguancun,<br>&#160; &#160; &#160; &#160;The Institute of Computing Technology of the Chinese Academy of Sciences,<br>&#160; &#160; &#160; &#160;Haidian District Beijing,China, 100190</p>
+<h1 id="Mobile"><a href="#Mobile" class="headerlink" title="Mobile"></a>Mobile</h1><p>&#160; &#160; &#160; &#160;+86-15011519775</p>
+<h1 id="Email"><a href="#Email" class="headerlink" title="Email"></a>Email</h1><p>&#160; &#160; &#160; &#160;lee.jiajun.work@gmail.com<br>&#160; &#160; &#160; &#160;lijiajun01@ict.ac.cn</p>
+<hr>
+<center><br><i class="fa fa-github" aria-hidden="true" style="margin-right:15px;"> <a href="https://github.com/leejiajun" target="_blank" rel="external">GitHub</a></i>    <i class="fa fa-weibo" aria-hidden="true" style="margin-right:15px;"> <a href="http://weibo.com/p/1005052841242582" target="_blank" rel="external">Weibo</a></i>    <i class="fa fa-facebook-official" aria-hidden="true" style="margin-right:15px;"> <a href="https://www.facebook.com/profile.php?id=100006144016792" target="_blank" rel="external">Facebook</a></i>    <i class="fa fa-linkedin" aria-hidden="true" style="margin-right:15px;"> <a href="https://cn.linkedin.com/in/佳骏-李-a37594ab" target="_blank" rel="external">LinkedIn</a></i>    <i class="fa" aria-hidden="true" style="margin-right:15px;">知 <a href="https://www.zhihu.com/people/li-jia-jun-29" target="_blank" rel="external">ZhiHu</a></i>    <i class="fa fa-rss-square" aria-hidden="true" style="margin-right:15px;"> <a href="http://blog.csdn.net/jiajunlee" target="_blank" rel="external">CSDN</a></i><br></center>
+
+<hr>
+]]></content>
     
     <summary type="html">
+    
+      &lt;h1 id=&quot;Address&quot;&gt;&lt;a href=&quot;#Address&quot; class=&quot;headerlink&quot; title=&quot;Address&quot;&gt;&lt;/a&gt;Address&lt;/h1&gt;&lt;p&gt;&amp;#160; &amp;#160; &amp;#160; &amp;#160;No.6 Kexueyuan South Ro
     
     </summary>
     
@@ -50,38 +41,18 @@
   </entry>
   
   <entry>
-    <title>Education</title>
-    <link href="http://jiajun.org.cn/2016/07/30/Education/"/>
-    <id>http://jiajun.org.cn/2016/07/30/Education/</id>
+    <title>Aoubut Me</title>
+    <link href="http://jiajun.org.cn/2016/07/30/Aoubut%20Me/"/>
+    <id>http://jiajun.org.cn/2016/07/30/Aoubut Me/</id>
     <published>2016-07-30T12:42:01.000Z</published>
-    <updated>2016-07-31T08:04:14.000Z</updated>
+    <updated>2016-07-31T08:42:57.000Z</updated>
     
-    <content type="html"><![CDATA[<p>I am a Ph.D. Candidate at State Key Laboratory of Computer Architecture in The Institute of Computing Technology of the Chinese Academy of Sciences. I received my bachelor degree in Computer Science from Tsinghua University.</p>
-<p>My research focuses on understanding individual behaviors at the micro level and community dynamics at the macro level. I aim to harness emerging data in social interactions to explain and predict human decisions, whereby enhancing social and technological systems. I am currently supported by a Facebook fellowship. Here is my CV.</p>
+    <content type="html"><![CDATA[<p><img src="./img/jiajun.jpg" width="150" style="float:left; margin-top:8px; margin-right:20px; margin-left:2px" alt="jiajun"> I am a Ph.D. Candidate at <a href="http://www.carch.ac.cn" target="_blank" rel="external">State Key Laboratory of Computer Architecture</a> in <a href="http://www.ict.ac.cn" target="_blank" rel="external">The Institute of Computing Technology</a> of <a href="http://www.cas.cn" target="_blank" rel="external">the Chinese Academy of Sciences</a>. Before coming to CAS, I got my bachelor degree (2016) from <a href="http://xgxy.cug.edu.cn" target="_blank" rel="external">Department of Information Engineering</a>, <a href="http://www.cug.edu.cn/new/" target="_blank" rel="external">China University of Geosciences(Wuhan)</a>.<br><br>My research focuses on xxxxx and xxxxx at the xxxxx. Here is my <a href="http://" target="_blank" rel="external">CV</a>.</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;I am a Ph.D. Candidate at State Key Laboratory of Computer Architecture in The Institute of Computing Technology of the Chinese Academy o
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Papers</title>
-    <link href="http://jiajun.org.cn/2016/07/30/Papers/"/>
-    <id>http://jiajun.org.cn/2016/07/30/Papers/</id>
-    <published>2016-07-30T12:42:01.000Z</published>
-    <updated>2016-07-31T05:07:35.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>I am a Ph.D. Candidate in Computer Science at Cornell University. I am fortunate to be advised by Lillian Lee, and I have Jon Kleinberg and Bobby Kleinberg on my committee. Previously, I received my bachelor degree in Computer Science from Tsinghua University, with a second degree in Economics.</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;I am a Ph.D. Candidate in Computer Science at Cornell University. I am fortunate to be advised by Lillian Lee, and I have Jon Kleinberg a
+      &lt;p&gt;&lt;img src=&quot;./img/jiajun.jpg&quot; width=&quot;150&quot; style=&quot;float:left; margin-top:8px; margin-right:20px; margin-left:2px&quot; alt=&quot;jiajun&quot;&gt; I am a Ph.D.
     
     </summary>
     
