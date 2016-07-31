@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jiajun.org.cn/"/>
-  <updated>2016-07-30T16:40:17.000Z</updated>
+  <updated>2016-07-31T06:33:11.000Z</updated>
   <id>http://jiajun.org.cn/</id>
   
   <author>
@@ -16,208 +16,75 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks程序(Python)配置问题总结</title>
-    <link href="http://jiajun.org.cn/2016/07/30/Faster-R-CNN-Towards-Real-Time-Object-Detection-with-Region-Proposal-Networks%E7%A8%8B%E5%BA%8F-Python-%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93/"/>
-    <id>http://jiajun.org.cn/2016/07/30/Faster-R-CNN-Towards-Real-Time-Object-Detection-with-Region-Proposal-Networks程序-Python-配置问题总结/</id>
+    <title>Aoubut Me</title>
+    <link href="http://jiajun.org.cn/2016/07/30/Aoubut%20Me/"/>
+    <id>http://jiajun.org.cn/2016/07/30/Aoubut Me/</id>
     <published>2016-07-30T12:42:01.000Z</published>
-    <updated>2016-07-30T16:40:17.000Z</updated>
+    <updated>2016-07-31T06:33:11.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="预先浏览"><a href="#预先浏览" class="headerlink" title="预先浏览"></a>预先浏览</h2><ul>
-<li><a href="http://papers.nips.cc/paper/5638-faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks" target="_blank" rel="external">原文</a></li>
-<li><a href="https://github.com/rbgirshick/py-faster-rcnn" target="_blank" rel="external">源码(python)</a></li>
-<li><p><a href="http://m.blog.csdn.net/blog/anxiaoxi45/46522155" target="_blank" rel="external">推荐阅读</a></p>
-<p>接下来列举源码配置过程中我遇到的问题，希望对大家有帮助。若有错误，还望指出。</p>
-</li>
-</ul>
-<h2 id="Q-amp-A"><a href="#Q-amp-A" class="headerlink" title="Q&amp;A"></a>Q&amp;A</h2><h3 id="Q1-error-utils-bbox-c-No-such-file-or-directory"><a href="#Q1-error-utils-bbox-c-No-such-file-or-directory" class="headerlink" title="Q1: error: utils/bbox.c: No such file or directory"></a><strong>Q1: error: utils/bbox.c: No such file or directory</strong></h3><ul>
-<li><p><strong>错误描述: </strong></p>
-<blockquote>
-<p>x86_64-linux-gnu-gcc: error: utils/bbox.c: No such file or directory<br>x86_64-linux-gnu-gcc: fatal error: no input files<br>compilation terminated.<br>error: command ‘x86_64-linux-gnu-gcc’ failed with exit status 4<br>make: <em>*</em> [all] Error 1</p>
-</blockquote>
-</li>
-<li><p><strong>解决方案: </strong>手动用python生成bbox.c</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd $FRCN_ROOT/lib/utils</div><div class="line">cython bbox.pyx</div></pre></td></tr></table></figure>
-</li>
-</ul>
-<h3 id="Q2-error-nms-cpu-nms-c-No-such-file-or-directory"><a href="#Q2-error-nms-cpu-nms-c-No-such-file-or-directory" class="headerlink" title="Q2: error: nms/cpu_nms.c: No such file or directory"></a><strong>Q2: error: nms/cpu_nms.c: No such file or directory</strong></h3><ul>
-<li><p><strong>错误描述: </strong></p>
-<blockquote>
-<p>x86_64-linux-gnu-gcc: error: nms/cpu_nms.c: No such file or directory<br>x86_64-linux-gnu-gcc: fatal error: no input files<br>compilation terminated.<br>error: command ‘x86_64-linux-gnu-gcc’ failed with exit status 4<br>make: <em>*</em> [all] Error 1</p>
-</blockquote>
-</li>
-<li><p><strong>解决方案: </strong>手动用python生成cpu_nms.c</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd $FRCN_ROOT/lib/nms</div><div class="line">cython cpu_nms.pyx</div></pre></td></tr></table></figure>
-</li>
-</ul>
-<h3 id="Q3-error-nms-gpu-nms-c-No-such-file-or-directory"><a href="#Q3-error-nms-gpu-nms-c-No-such-file-or-directory" class="headerlink" title="Q3: error: nms/gpu_nms.c: No such file or directory"></a><strong>Q3: error: nms/gpu_nms.c: No such file or directory</strong></h3><ul>
-<li><p><strong>错误描述: </strong></p>
-<blockquote>
-<p>x86_64-linux-gnu-gcc: error: nms/gpu_nms.c: No such file or directory<br>x86_64-linux-gnu-gcc: fatal error: no input files<br>compilation terminated.<br>error: command ‘x86_64-linux-gnu-gcc’ failed with exit status 4<br>make: <em>*</em> [all] Error 1</p>
-</blockquote>
-</li>
-<li><p><strong>解决方案: </strong>手动用cython生成gpu_nms.c</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd $FRCN_ROOT/lib/nms</div><div class="line">cython gpu_nms.pyx</div></pre></td></tr></table></figure>
-</li>
-</ul>
-<h3 id="Q4-Makefile-config-not-found"><a href="#Q4-Makefile-config-not-found" class="headerlink" title="Q4: Makefile.config not found"></a><strong>Q4: Makefile.config not found</strong></h3><ul>
-<li><p><strong>错误描述: </strong></p>
-<blockquote>
-<p>Makefile:6: <em>*</em> Makefile.config not found. See Makefile.config.example..  Stop.</p>
-</blockquote>
-</li>
-<li><p><strong>解决方案: </strong>$FRCN_ROOT/caffe-fast-rcnn目录下，作者提供了Makefile.config.example</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd $FRCN_ROOT/caffe-fast-rcnn</div><div class="line">cp Makefile.config.example Makefile.config</div></pre></td></tr></table></figure>
-</li>
-</ul>
-<h3 id="Q5-undefined-symbol-nms"><a href="#Q5-undefined-symbol-nms" class="headerlink" title="Q5: undefined symbol: _nms"></a><strong>Q5: undefined symbol: _nms</strong></h3><ul>
-<li><p><strong>错误描述: </strong> 当在$FRCN_ROOT/lib下make时出现</p>
-<blockquote>
-<p>Traceback (most recent call last):<br>File “./demo.py”, line 18, in module<br>from fast_rcnn.test import im_detect<br>File “/home/lijiajun/py-faster-rcnn-blog/tools/../lib/fast_rcnn/test.py”, line 17, in module<br>from fast_rcnn.nms_wrapper import nms<br>File “/home/lijiajun/py-faster-rcnn-blog/tools/../lib/fast_rcnn/nms_wrapper.py”, line 9, in module<br>from nms.gpu_nms import gpu_nms<br>ImportError: /home/lijiajun/py-faster-rcnn-blog/tools/../lib/nms/gpu_nms.so: undefined symbol: _nms</p>
-</blockquote>
-</li>
-<li><p><strong>解决方案: </strong>gpu_nms.so编译时有误，分3步</p>
-<ul>
-<li><p>编辑setup.py</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd $FRCN_ROOT/lib</div><div class="line">vim setup.py</div></pre></td></tr></table></figure>
-</li>
-<li><p>将gpu_nms.pyx改为gpu_nms.cpp</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">Extension(<span class="string">'nms.gpu_nms'</span>,</div><div class="line">    [<span class="string">'nms/nms_kernel.cu'</span>, <span class="string">'nms/gpu_nms.pyx'</span>],</div><div class="line">    ...</div></pre></td></tr></table></figure>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">Extension(<span class="string">'nms.gpu_nms'</span>,</div><div class="line">    [<span class="string">'nms/nms_kernel.cu'</span>, <span class="string">'nms/gpu_nms.cpp'</span>],</div><div class="line">    ...</div></pre></td></tr></table></figure>
-</li>
-<li><p>修改gpu_nms.c文件后缀为.cpp</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">cd $FRCN_ROOT/lib/nms</div><div class="line">mv gpu_nms.c gpu_nms.cpp</div><div class="line">rm gpu_nms.so</div></pre></td></tr></table></figure>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="Q6-Check-failed-registry-count-type-1-0-vs-1-Unknown-layer-type"><a href="#Q6-Check-failed-registry-count-type-1-0-vs-1-Unknown-layer-type" class="headerlink" title="Q6: Check failed: registry.count(type) == 1 (0 vs. 1) Unknown layer type"></a><strong>Q6: Check failed: registry.count(type) == 1 (0 vs. 1) Unknown layer type</strong></h3><ul>
-<li><p><strong>错误描述: </strong></p>
-<blockquote>
-<p> I1221 19:43:06.790405 12895 layer_factory.hpp:76] Creating layer proposal<br>F1221 19:43:06.790431 12895 layer_factory.hpp:80] Check failed: registry.count(type) == 1 (0 vs. 1) Unknown layer type: Python (known types: AbsVal, Accuracy, ArgMax, BNLL, Concat, ContrastiveLoss, Convolution, Data, Deconvolution, Dropout, DummyData, Eltwise, Embed, EuclideanLoss, Exp, Filter, Flatten, HDF5Data, HDF5Output, HingeLoss, Im2col, ImageData, InfogainLoss, InnerProduct, LRN, Log, MVN, MemoryData, MultinomialLogisticLoss, PReLU, Pooling, Power, ROIPooling, ReLU, Reduction, Reshape, SPP, Sigmoid, SigmoidCrossEntropyLoss, Silence, Slice, SmoothL1Loss, Softmax, SoftmaxWithLoss, Split, TanH, Threshold, Tile, WindowData)<br>*** Check failure stack trace: ***<br>Aborted (core dumped)</p>
-</blockquote>
-</li>
-<li><p><strong>解决方案: </strong>将caffe的Makefile.config配置正确</p>
-<ul>
-<li><p>Caffe must be built with support for Python layers!</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># In your Makefile.config, make sure to have this line uncommented</span></div><div class="line">WITH_PYTHON_LAYER := <span class="number">1</span></div></pre></td></tr></table></figure>
-</li>
-<li><p>修改完成后</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">cd $FRCN_ROOT/caffe-fast-rcnn</div><div class="line">make clean</div><div class="line">make -j</div><div class="line">make pycaffe</div></pre></td></tr></table></figure>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="Q7-ImportError-No-module-named-caffe"><a href="#Q7-ImportError-No-module-named-caffe" class="headerlink" title="Q7: ImportError: No module named _caffe"></a><strong>Q7: ImportError: No module named _caffe</strong></h3><ul>
-<li><p><strong>错误描述: </strong></p>
-<blockquote>
-<p>Traceback (most recent call last):<br> File “./demo.py”, line 18, in &lt; module&gt;<br>   from fast_rcnn.test import im_detect<br> File “/home/lijiajun/py-faster-rcnn-blog/tools/../lib/fast_rcnn/test.py”, line 16, in &lt; module><br>   import caffe<br> File “/home/lijiajun/py-faster-rcnn-blog/tools/../caffe-fast-rcnn/python/caffe/<strong>init</strong>.py”, line 1, in &lt; module&gt;<br>   from .pycaffe import Net, SGDSolver<br> File “/home/lijiajun/py-faster-rcnn-blog/tools/../caffe-fast-rcnn/python/caffe/pycaffe.py”, line 13, in &lt; module&gt;<br>   from ._caffe import Net, SGDSolver<br>ImportError: No module named _caffe</p>
-</blockquote>
-</li>
-<li><p><strong>解决方案: </strong>编译pycaffe</p>
-  <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd $FRCN_ROOT/caffe-fast-rcnn</div><div class="line">make pycaffe</div></pre></td></tr></table></figure>
-</li>
-</ul>
-<h3 id="Q8-tkinter-TclError-no-display-name-and-no-DISPLAY-environment-variable"><a href="#Q8-tkinter-TclError-no-display-name-and-no-DISPLAY-environment-variable" class="headerlink" title="Q8: tkinter.TclError: no display name and no $DISPLAY environment variable"></a><strong>Q8: tkinter.TclError: no display name and no $DISPLAY environment variable</strong></h3><ul>
-<li><p><strong>错误描述: </strong></p>
-<blockquote>
-<p>Traceback (most recent call last):<br>File “./demo.py”, line 149, in &lt; module&gt;<br>demo(net, im_name)<br>File “./demo.py”, line 98, in demo<br>vis_detections(im, cls, dets, thresh=CONF_THRESH)<br>File “./demo.py”, line 47, in vis_detections<br>fig, ax = plt.subplots(figsize=(12, 12))<br>File “/usr/lib/pymodules/python2.7/matplotlib/pyplot.py”, line 1046, in subplots<br>fig = figure(**fig_kw)<br>File “/usr/lib/pymodules/python2.7/matplotlib/pyplot.py”, line 423, in figure**kwargs)<br>File “/usr/lib/pymodules/python2.7/matplotlib/backends/backend_tkagg.py”, line 79, in new_figure_manager<br>return new_figure_manager_given_figure(num, figure)<br>File “/usr/lib/pymodules/python2.7/matplotlib/backends/backend_tkagg.py”, line 87, in new_figure_manager_given<em>figure<br>window = Tk.Tk()<br>File “/usr/lib/python2.7/lib-tk/Tkinter.py”, line 1767, in \</em>_init__<br>self.tk = _tkinter.create(screenName, baseName, className, interactive, wantobjects, useTk, sync, use)<br>_tkinter.TclError: no display name and no $DISPLAY environment variable</p>
-</blockquote>
-</li>
-<li><p><strong>解决方案: </strong>注释需要图形界面的代码</p>
-<ul>
-<li><p>切换到图形界面后在执行脚本。</p>
-</li>
-<li><p>或者，修改demo.py，将调用函数vis_detections()的代码注释。</p>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="Q9-invalid-conversion-from-‘const-int’-to-‘int’"><a href="#Q9-invalid-conversion-from-‘const-int’-to-‘int’" class="headerlink" title="Q9:  invalid conversion from ‘const int’ to ‘int’"></a><strong>Q9:  invalid conversion from ‘const int<em>’ to ‘int</em>’</strong></h3><ul>
-<li><p><strong>错误描述: </strong></p>
-<blockquote>
-<p>nms/gpu_nms.cpp: In function ‘PyObject<em> __pyx_pf_3nms_7gpu_nms_gpu_nms(PyObject</em>, PyArrayObject<em>, PyObject</em>, <strong>pyx_t_5numpy_int32_t)’:<br>nms/gpu_nms.cpp:1593:469: error: invalid conversion from ‘const int<em>’ to ‘int</em>’ [-fpermissive]<br> _nms((&amp;(*</strong>Pyx_BufPtrStrided1d(const int <em>, <strong>pyx_pybuffernd_keep.rcbuffer-&gt;pybuffer.buf, </strong>pyx_t_10, <strong>pyx_pybuffernd_keep.diminfo[0].strides))), (&amp;</strong>pyx_v_num_out), (&amp;(</em><strong>Pyx_BufPtrStrided2d(</strong>pyx_t_5numpy_float32_t *, <strong>pyx_pybuffernd_sorted_dets.rcbuffer-&gt;pybuffer.buf, </strong>pyx_t_12, <strong>pyx_pybuffernd_sorted_dets.diminfo[0].strides, </strong>pyx_t_13, <strong>pyx_pybuffernd_sorted_dets.diminfo[1].strides))), </strong>pyx_v_boxes_num, <strong>pyx_v_boxes_dim, </strong>pyx_t_14, __pyx_v_device_id);</p>
-<pre><code>^
-</code></pre><p>In file included from nms/gpu_nms.cpp:253:0:<br>nms/gpu_nms.hpp:1:6: error:   initializing argument 1 of ‘void _nms(int<em>, int</em>, const float<em>, int, int, float, int)’ [-fpermissive]<br>void _nms(int</em> keep_out, int<em> num_out, const float</em> boxes_host, int boxes_num,int boxes_dim, float nms_overlap_thresh, int device_id);</p>
-<pre><code>^
-</code></pre><p>error: command ‘arm-linux-gnueabihf-gcc’ failed with exit status 1<br>make: <em>*</em> [all] Error 1</p>
-</blockquote>
-</li>
-<li><p><strong>问题分析: </strong><br>原因就是C语言编译器允许隐含性的将一个通用指针转换为任意类型的指针，包括const <em>而C＋＋不允许将const 转换为非const</em>，所以出错。</p>
-</li>
-<li><p><strong>解决方案: </strong><br>将出错的函数变量__pyx_t_5numpy_int32_t<em>，改成int</em>。接着，为了保证gpu_nms.cpp不再由gpu_nms.pyx自动生成，需要将setup.py中ext_modules数组下的nms/gpu_nms.pyx改为nms/gpu_nms.cpp。</p>
-<ul>
-<li><p><strong>error: </strong><br>_nms((&amp;(<em><strong>Pyx_BufPtrStrided1d(<font color="Crimson"></font></strong>pyx_t_5numpy_int32_t \</em>, <strong>pyx_pybuffernd_keep.rcbuffer-&gt;pybuffer.buf, </strong>pyx_t_10, <strong>pyx_pybuffernd_keep.diminfo[0].strides))), (&amp;</strong>pyx_v_num_out), (&amp;(<em><strong>Pyx_BufPtrStrided2d(</strong>pyx_t_5numpy_float32_t </em>, <strong>pyx_pybuffernd_sorted_dets.rcbuffer-&gt;pybuffer.buf, </strong>pyx_t_12, <strong>pyx_pybuffernd_sorted_dets.diminfo[0].strides, </strong>pyx_t_13, <strong>pyx_pybuffernd_sorted_dets.diminfo[1].strides))), </strong>pyx_v_boxes_num, <strong>pyx_v_boxes_dim, </strong>pyx_t_14, __pyx_v_device_id);</p>
-</li>
-<li><p><strong>correct: </strong><br>_nms((&amp;(<em>__Pyx_BufPtrStrided1d(<font color="Crimson">int\</font></em>, <strong>pyx_pybuffernd_keep.rcbuffer-&gt;pybuffer.buf, </strong>pyx_t_10, <strong>pyx_pybuffernd_keep.diminfo[0].strides))), (&amp;</strong>pyx_v_num_out), (&amp;(<em><strong>Pyx_BufPtrStrided2d(</strong>pyx_t_5numpy_float32_t </em>, <strong>pyx_pybuffernd_sorted_dets.rcbuffer-&gt;pybuffer.buf, </strong>pyx_t_12, <strong>pyx_pybuffernd_sorted_dets.diminfo[0].strides, </strong>pyx_t_13, <strong>pyx_pybuffernd_sorted_dets.diminfo[1].strides))), </strong>pyx_v_boxes_num, <strong>pyx_v_boxes_dim, </strong>pyx_t_14, __pyx_v_device_id);</p>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="Q10-Check-failed-error-cudaSuccess-8-vs-0-invalid-device-function"><a href="#Q10-Check-failed-error-cudaSuccess-8-vs-0-invalid-device-function" class="headerlink" title="Q10:Check failed: error == cudaSuccess (8 vs. 0) invalid device function"></a><strong>Q10:Check failed: error == cudaSuccess (8 vs. 0) invalid device function</strong></h3><ul>
-<li><p>错误分析:</p>
-<blockquote>
-<p>GPU too old or Cuda too old. Faster R-CNN的Issue讨论得还比较清楚。<br>Whenever the CUDA runtime API returns “Invalid Device Function”, it means you are using code which wasn’t built for the architecture you are trying to run it on (and doesn’t have a JIT path).</p>
-</blockquote>
-</li>
-<li><p><strong>解决方案请参考: </strong></p>
-<ul>
-<li><a href="https://github.com/rbgirshick/py-faster-rcnn/issues/2" target="_blank" rel="external">Github Issue #2</a></li>
-<li><a href="http://stackoverflow.com/questions/33276539/caffe-cuda-error-8-vs-0-invalid-device-function-when-using-gpu-geforce-gt" target="_blank" rel="external">Stack overflow</a></li>
-</ul>
-</li>
-</ul>
-<h3 id="Q11-Check-failed-error-cudaSuccess-8-vs-0-invalid-device-function"><a href="#Q11-Check-failed-error-cudaSuccess-8-vs-0-invalid-device-function" class="headerlink" title="Q11:Check failed: error == cudaSuccess (8 vs. 0) invalid device function"></a><strong>Q11:Check failed: error == cudaSuccess (8 vs. 0) invalid device function</strong></h3><ul>
-<li><p><strong>错误描述: </strong></p>
-<blockquote>
-<p>Error using textread (line 165)<br>File not found.<br>Error in VOCevaldet (line 30)<br>[ids,confidence,b1,b2,b3,b4]=textread(sprintf(VOCopts.detrespath,id,cls),’%s %f %f %f %f %f’);<br>Error in voc_eval&gt;voc_eval_cls (line 36)<br>  [recall, prec, ap] = VOCevaldet(VOCopts, comp_id, cls, true);<br>Error in voc_eval (line 8)<br>  res(i) = voc_eval_cls(cls, VOCopts, comp_id, output_dir, rm_res);<br>165     error(message(‘MATLAB:textread:FileNotFound’));</p>
-</blockquote>
-</li>
-<li><p><strong>解决方案: </strong><br>In VOCCode, inside the VOCdevkit folder, there will be a file called VOCinit.m .<br>In that, on around line 31, change the VOC.testset to ‘test’ instead of ‘val’</p>
-</li>
-</ul>
-<hr>
-<p>2016年2月26日更新</p>
-<h3 id="Q12-Check-failed-error-cudaSuccess-8-vs-0-invalid-device-function"><a href="#Q12-Check-failed-error-cudaSuccess-8-vs-0-invalid-device-function" class="headerlink" title="Q12:Check failed: error == cudaSuccess (8 vs. 0) invalid device function"></a><strong>Q12:Check failed: error == cudaSuccess (8 vs. 0) invalid device function</strong></h3><ul>
-<li><p><strong>错误描述: </strong></p>
-<blockquote>
-<p>python setup.py build_ext –inplace<br>Traceback (most recent call last):<br>  File “setup.py”, line 57, in <module></module></p>
-<pre><code>CUDA = locate_cuda()
-</code></pre><p>  File “setup.py”, line 54, in locate_cuda</p>
-<pre><code>raise EnvironmentError(&apos;The CUDA %s path could not be located in %s&apos; % (k, v))
-</code></pre><p>EnvironmentError: The CUDA lib64 path could not be located in /usr/local/cuda/lib64<br>make: <em>*</em> [all] Error 1</p>
-</blockquote>
-</li>
-<li><p><strong>解决方案: </strong><br>修改lib/setup.py中cudaconfig元组中lib64的值， ‘lib64’-&gt;’lib’。因为设备不支持64位运算，所以cuda缺少lib64文件。</p>
-</li>
-</ul>
-<hr>
-<p><strong>reference: </strong> </p>
-<ol>
-<li><a href="https://github.com/rbgirshick/fast-rcnn/issues/28" target="_blank" rel="external">Github issues1</a></li>
-<li><a href="https://github.com/rbgirshick/fast-rcnn/issues/42" target="_blank" rel="external">Github issues2</a></li>
-</ol>
-<hr>
-<p>最终效果图</p>
-<p><img src="http://img.blog.csdn.net/20151221201645402" alt="最终效果"></p>
+    <content type="html"><![CDATA[<p><img src="/img/jiajun.jpg" alt="jiajun"><br>I am a Ph.D. Candidate at State Key Laboratory of Computer Architecture in The Institute of Computing Technology of the Chinese Academy of Sciences. I received my bachelor degree in Computer Science from Tsinghua University.</p>
+<p>My research focuses on understanding individual behaviors at the micro level and community dynamics at the macro level. I aim to harness emerging data in social interactions to explain and predict human decisions, whereby enhancing social and technological systems. I am currently supported by a Facebook fellowship. Here is my CV.</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;预先浏览&quot;&gt;&lt;a href=&quot;#预先浏览&quot; class=&quot;headerlink&quot; title=&quot;预先浏览&quot;&gt;&lt;/a&gt;预先浏览&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://papers.nips.cc/paper/5638-faster-r-cnn-t
+      &lt;p&gt;&lt;img src=&quot;/img/jiajun.jpg&quot; alt=&quot;jiajun&quot;&gt;&lt;br&gt;I am a Ph.D. Candidate at State Key Laboratory of Computer Architecture in The Institute of C
     
     </summary>
     
-      <category term="原创" scheme="http://jiajun.org.cn/categories/%E5%8E%9F%E5%88%9B/"/>
     
-      <category term="科研" scheme="http://jiajun.org.cn/categories/%E5%8E%9F%E5%88%9B/%E7%A7%91%E7%A0%94/"/>
+  </entry>
+  
+  <entry>
+    <title>Papers</title>
+    <link href="http://jiajun.org.cn/2016/07/30/Papers/"/>
+    <id>http://jiajun.org.cn/2016/07/30/Papers/</id>
+    <published>2016-07-30T12:42:01.000Z</published>
+    <updated>2016-07-31T05:07:35.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>I am a Ph.D. Candidate in Computer Science at Cornell University. I am fortunate to be advised by Lillian Lee, and I have Jon Kleinberg and Bobby Kleinberg on my committee. Previously, I received my bachelor degree in Computer Science from Tsinghua University, with a second degree in Economics.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;I am a Ph.D. Candidate in Computer Science at Cornell University. I am fortunate to be advised by Lillian Lee, and I have Jon Kleinberg a
+    
+    </summary>
     
     
-      <category term="Caffe" scheme="http://jiajun.org.cn/tags/Caffe/"/>
+  </entry>
+  
+  <entry>
+    <title>Contact</title>
+    <link href="http://jiajun.org.cn/2016/07/30/Contact/"/>
+    <id>http://jiajun.org.cn/2016/07/30/Contact/</id>
+    <published>2016-07-30T12:42:01.000Z</published>
+    <updated>2016-07-31T06:00:47.000Z</updated>
     
-      <category term="Faster R-CNN" scheme="http://jiajun.org.cn/tags/Faster-R-CNN/"/>
+    <summary type="html">
     
-      <category term="Deep Learning" scheme="http://jiajun.org.cn/tags/Deep-Learning/"/>
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Education</title>
+    <link href="http://jiajun.org.cn/2016/07/30/Education/"/>
+    <id>http://jiajun.org.cn/2016/07/30/Education/</id>
+    <published>2016-07-30T12:42:01.000Z</published>
+    <updated>2016-07-31T06:34:12.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/img/jiajun.jpg" alt="jiajun"><br>I am a Ph.D. Candidate at State Key Laboratory of Computer Architecture in The Institute of Computing Technology of the Chinese Academy of Sciences. I received my bachelor degree in Computer Science from Tsinghua University.</p>
+<p>My research focuses on understanding individual behaviors at the micro level and community dynamics at the macro level. I aim to harness emerging data in social interactions to explain and predict human decisions, whereby enhancing social and technological systems. I am currently supported by a Facebook fellowship. Here is my CV.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/img/jiajun.jpg&quot; alt=&quot;jiajun&quot;&gt;&lt;br&gt;I am a Ph.D. Candidate at State Key Laboratory of Computer Architecture in The Institute of C
+    
+    </summary>
+    
     
   </entry>
   
