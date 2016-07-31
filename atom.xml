@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jiajun.org.cn/"/>
-  <updated>2016-07-31T09:22:35.000Z</updated>
+  <updated>2016-07-31T08:42:57.000Z</updated>
   <id>http://jiajun.org.cn/</id>
   
   <author>
@@ -14,31 +14,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Contact</title>
-    <link href="http://jiajun.org.cn/2016/07/30/Contact/"/>
-    <id>http://jiajun.org.cn/2016/07/30/Contact/</id>
-    <published>2016-07-30T12:42:01.000Z</published>
-    <updated>2016-07-31T09:22:35.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Address"><a href="#Address" class="headerlink" title="Address"></a>Address</h1><p>&#160; &#160; &#160; &#160;No.6 Kexueyuan South Road Zhongguancun,<br>&#160; &#160; &#160; &#160;The Institute of Computing Technology of the Chinese Academy of Sciences,<br>&#160; &#160; &#160; &#160;Haidian District Beijing,China, 100190</p>
-<h1 id="Mobile"><a href="#Mobile" class="headerlink" title="Mobile"></a>Mobile</h1><p>&#160; &#160; &#160; &#160;+86-15011519775</p>
-<h1 id="Email"><a href="#Email" class="headerlink" title="Email"></a>Email</h1><p>&#160; &#160; &#160; &#160;lee.jiajun.work@gmail.com<br>&#160; &#160; &#160; &#160;lijiajun01@ict.ac.cn</p>
-<hr>
-<center><br><i class="fa fa-github" aria-hidden="true" style="margin-right:15px;"> <a href="https://github.com/leejiajun" target="_blank" rel="external">GitHub</a></i>    <i class="fa fa-weibo" aria-hidden="true" style="margin-right:15px;"> <a href="http://weibo.com/p/1005052841242582" target="_blank" rel="external">Weibo</a></i>    <i class="fa fa-facebook-official" aria-hidden="true" style="margin-right:15px;"> <a href="https://www.facebook.com/profile.php?id=100006144016792" target="_blank" rel="external">Facebook</a></i>    <i class="fa fa-linkedin" aria-hidden="true" style="margin-right:15px;"> <a href="https://cn.linkedin.com/in/佳骏-李-a37594ab" target="_blank" rel="external">LinkedIn</a></i>    <i class="fa" aria-hidden="true" style="margin-right:15px;">知 <a href="https://www.zhihu.com/people/li-jia-jun-29" target="_blank" rel="external">ZhiHu</a></i>    <i class="fa fa-rss-square" aria-hidden="true" style="margin-right:15px;"> <a href="http://blog.csdn.net/jiajunlee" target="_blank" rel="external">CSDN</a></i><br></center>
-
-<hr>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;Address&quot;&gt;&lt;a href=&quot;#Address&quot; class=&quot;headerlink&quot; title=&quot;Address&quot;&gt;&lt;/a&gt;Address&lt;/h1&gt;&lt;p&gt;&amp;#160; &amp;#160; &amp;#160; &amp;#160;No.6 Kexueyuan South Ro
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>Aoubut Me</title>
@@ -53,6 +28,31 @@
     <summary type="html">
     
       &lt;p&gt;&lt;img src=&quot;./img/jiajun.jpg&quot; width=&quot;150&quot; style=&quot;float:left; margin-top:8px; margin-right:20px; margin-left:2px&quot; alt=&quot;jiajun&quot;&gt; I am a Ph.D.
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Contact</title>
+    <link href="http://jiajun.org.cn/2016/07/30/Contact/"/>
+    <id>http://jiajun.org.cn/2016/07/30/Contact/</id>
+    <published>2016-07-30T12:42:01.000Z</published>
+    <updated>2016-07-31T09:30:07.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Address"><a href="#Address" class="headerlink" title="Address"></a>Address</h1><p>&#160; &#160; &#160; &#160;No.6 Kexueyuan South Road Zhongguancun,<br>&#160; &#160; &#160; &#160;The Institute of Computing Technology of the Chinese Academy of Sciences,<br>&#160; &#160; &#160; &#160;Haidian District Beijing, China, 100190</p>
+<h1 id="Mobile"><a href="#Mobile" class="headerlink" title="Mobile"></a>Mobile</h1><p>&#160; &#160; &#160; &#160;+86-15011519775</p>
+<h1 id="Email"><a href="#Email" class="headerlink" title="Email"></a>Email</h1><p>&#160; &#160; &#160; &#160;lee.jiajun.work@gmail.com<br>&#160; &#160; &#160; &#160;lijiajun01@ict.ac.cn</p>
+<hr>
+<center><br><i class="fa fa-github" aria-hidden="true" style="margin-right:15px;"> <a href="https://github.com/leejiajun" target="_blank" rel="external">GitHub</a></i>    <i class="fa fa-weibo" aria-hidden="true" style="margin-right:15px;"> <a href="http://weibo.com/p/1005052841242582" target="_blank" rel="external">Weibo</a></i>    <i class="fa fa-facebook-official" aria-hidden="true" style="margin-right:15px;"> <a href="https://www.facebook.com/profile.php?id=100006144016792" target="_blank" rel="external">Facebook</a></i>    <i class="fa fa-linkedin" aria-hidden="true" style="margin-right:15px;"> <a href="https://cn.linkedin.com/in/佳骏-李-a37594ab" target="_blank" rel="external">LinkedIn</a></i>    <i class="fa" aria-hidden="true" style="margin-right:15px;">知 <a href="https://www.zhihu.com/people/li-jia-jun-29" target="_blank" rel="external">ZhiHu</a></i>    <i class="fa fa-rss-square" aria-hidden="true" style="margin-right:15px;"> <a href="http://blog.csdn.net/jiajunlee" target="_blank" rel="external">CSDN</a></i><br></center>
+
+<hr>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Address&quot;&gt;&lt;a href=&quot;#Address&quot; class=&quot;headerlink&quot; title=&quot;Address&quot;&gt;&lt;/a&gt;Address&lt;/h1&gt;&lt;p&gt;&amp;#160; &amp;#160; &amp;#160; &amp;#160;No.6 Kexueyuan South Ro
     
     </summary>
     
