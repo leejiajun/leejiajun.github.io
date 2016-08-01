@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Lee Jiajun (李佳骏)</title>
-  <subtitle>Jiajun &lt;img src=&quot;/gif/giphy-7.gif&quot; style=&quot;float:left;border:0;vertical-align:middle&quot;&gt; Homepage</subtitle>
+  <subtitle>Jiajun &lt;img src=&quot;/gif/giphy-7.gif&quot; style=&quot;border:0;vertical-align:middle&quot;&gt; Homepage</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="jiajun.org.cn/"/>
