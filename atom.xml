@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="jiajun.org.cn/"/>
-  <updated>2016-08-01T08:57:32.000Z</updated>
+  <updated>2016-08-01T12:17:29.000Z</updated>
   <id>jiajun.org.cn/</id>
   
   <author>
@@ -19,8 +19,8 @@
     <title>Aoubut Me</title>
     <link href="jiajun.org.cn/2016/07/30/Aoubut%20Me/"/>
     <id>jiajun.org.cn/2016/07/30/Aoubut Me/</id>
-    <published>2016-07-30T12:40:02.000Z</published>
-    <updated>2016-08-01T08:57:32.000Z</updated>
+    <published>2016-07-30T15:59:59.000Z</published>
+    <updated>2016-08-01T12:17:29.000Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/jiajun.jpg" width="150" style="float:left; margin-top:8px; margin-right:20px; margin-left:2px" alt="jiajun"> I am a Ph.D. Candidate at <a href="http://www.carch.ac.cn" target="_blank" rel="external">State Key Laboratory of Computer Architecture</a> in <a href="http://www.ict.ac.cn" target="_blank" rel="external">The Institute of Computing Technology</a> of <a href="http://www.cas.cn" target="_blank" rel="external">the Chinese Academy of Sciences</a> under supervision of Professor Yinhe Han and Professor Xiaowie Li.</p>
 <p>Before coming to CAS, I obtained my Bachelor degree in 2006 from <a href="http://xgxy.cug.edu.cn" target="_blank" rel="external">Department of Information Engineering</a>, <a href="http://www.cug.edu.cn/new/" target="_blank" rel="external">China University of Geosciences(Wuhan)</a>. For more detailed personal information, please refer to my <a href="/pdf/jiajun_cv.pdf">CV</a>(2012-2016).</p>
@@ -36,11 +36,40 @@
   </entry>
   
   <entry>
+    <title>Amazing</title>
+    <link href="jiajun.org.cn/2016/07/30/Amazing/"/>
+    <id>jiajun.org.cn/2016/07/30/Amazing/</id>
+    <published>2016-07-30T12:01:01.000Z</published>
+    <updated>2016-08-01T13:28:42.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="headline" class="demo-text">Shine Mouse-Follow Demo</h1>
+
+<script src="js/shine.min.js"></script>
+
+<script src="js/index.js"></script>
+
+<hr>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;headline&quot; class=&quot;demo-text&quot;&gt;Shine Mouse-Follow Demo&lt;/h1&gt;
+
+&lt;script src=&quot;js/shine.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;script src=&quot;js/index.js&quot;&gt;&lt;/scrip
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Contact</title>
     <link href="jiajun.org.cn/2016/07/30/Contact/"/>
     <id>jiajun.org.cn/2016/07/30/Contact/</id>
     <published>2016-07-30T12:00:01.000Z</published>
-    <updated>2016-08-01T07:22:15.000Z</updated>
+    <updated>2016-08-01T12:16:13.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Address"><a href="#Address" class="headerlink" title="Address"></a>Address</h1><p>&#160; &#160; &#160; &#160;No.6 Kexueyuan South Road Zhongguancun,<br>&#160; &#160; &#160; &#160;Haidian District Beijing,<br>&#160; &#160; &#160; &#160;China, 100190</p>
 <h1 id="Mobile"><a href="#Mobile" class="headerlink" title="Mobile"></a>Mobile</h1><p>&#160; &#160; &#160; &#160;+86-15011519775</p>
