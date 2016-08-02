@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>jiajun.org.cn/comments/index.html</loc>
+    
+    <lastmod>2016-08-02T07:57:16.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>jiajun.org.cn/2016/07/30/Contact/</loc>
     
     <lastmod>2016-08-02T07:34:55.000Z</lastmod>
@@ -16,44 +23,9 @@
   </url>
   
   <url>
-    <loc>jiajun.org.cn/comments/index.html</loc>
-    
-    <lastmod>2016-08-01T16:01:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>jiajun.org.cn/css3-text-shadow-animation/index.html</loc>
-    
-    <lastmod>2016-08-01T13:27:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>jiajun.org.cn/404.html</loc>
     
     <lastmod>2016-07-30T08:08:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>jiajun.org.cn/css3-text-shadow-animation/js/shine.min.js</loc>
-    
-    <lastmod>2014-05-02T08:00:14.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>jiajun.org.cn/css3-text-shadow-animation/css/style.css</loc>
-    
-    <lastmod>2014-05-01T23:49:38.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>jiajun.org.cn/css3-text-shadow-animation/js/index.js</loc>
-    
-    <lastmod>2014-05-01T23:49:38.000Z</lastmod>
     
   </url>
   
