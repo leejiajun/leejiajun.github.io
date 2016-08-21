@@ -67,7 +67,7 @@
         window.setTimeout(&quot;show_date_time()&quot;, 1000); 
         timeold=((new Date()).getTime()-(new Date(&quot;7/4/2013 00:0:0&quot;)).getTime()); 
         sectimeold=ti">
-<meta property="og:updated_time" content="2016-08-21T10:46:12.000Z">
+<meta property="og:updated_time" content="2016-08-21T10:50:51.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Lee Jiajun (李佳骏)">
 <meta name="twitter:description" content="function show_date_time(){ 
@@ -218,7 +218,7 @@
     
     
       <center padding-bottom:-10000px="">
-    <font size="5"><span id="love_time" style="color:#696969"></span></font>
+    <span id="love_time" style="color:#696969"></span>
 </center>
 
 <script language="javascript"> 
@@ -235,7 +235,11 @@
         e_minsold=(e_hrsold-hrsold)*60; 
         minsold=Math.floor((e_hrsold-hrsold)*60); 
         seconds=Math.floor((e_minsold-minsold)*60); 
-        love_time.innerHTML=" "+daysold+"D "+hrsold +"H "+ '<font size="3"><i class="fa fa-heart" aria-hidden="true"></i></font>' +"  "+minsold+" M "+seconds+"S"; 
+        love_time.innerHTML=" "+
+        "<font size='5'>"+daysold+"</font>"+" D  "+
+        "<font size='5'>"+hrsold +"</font>"+" H  "+
+        "<font size='5'>"+minsold+"</font>"+" M  "+
+        "<font size='5'>"+seconds+"</font>"+" S  "; 
     } 
     show_date_time(); 
 </script>
