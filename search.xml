@@ -22,4 +22,53 @@
     
   
   
+    
+    <entry>
+      <title></title>
+      <url>jiajun.org.cn/404.html</url>
+      <content type="html"><![CDATA[<p>jiajun.org.cn</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Comments]]></title>
+      <url>jiajun.org.cn/comments/index.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title></title>
+      <url>jiajun.org.cn/zzj/index.html</url>
+      <content type="html"><![CDATA[<center padding-bottom:-10000px="">
+    <span id="love_time" style="color:#696969"></span>
+</center>
+
+<script language="javascript"> 
+    function show_date_time(){ 
+        window.setTimeout("show_date_time()", 1000); 
+        timeold=((new Date()).getTime()-(new Date("7/4/2013 00:0:0")).getTime()); 
+        sectimeold=timeold/1000 
+        secondsold=Math.floor(sectimeold); 
+        msPerDay=24*60*60*1000
+        e_daysold=timeold/msPerDay 
+        daysold=Math.floor(e_daysold); 
+        e_hrsold=(e_daysold-daysold)*24; 
+        hrsold=Math.floor(e_hrsold); 
+        e_minsold=(e_hrsold-hrsold)*60; 
+        minsold=Math.floor((e_hrsold-hrsold)*60); 
+        seconds=Math.floor((e_minsold-minsold)*60); 
+        if(seconds<10)seconds='0'+seconds
+        if(minsold<10)minsold='0'+minsold
+        if(hrsold<10)hrsold='0'+hrsold
+        love_time.innerHTML=" "+
+        "<font size='5'>"+daysold+"</font>"+"D   "+
+        "<font size='5'>"+hrsold +"</font>"+"H   "+
+        "<font size='5'>"+minsold+"</font>"+"M   "+
+        "<font size='5'>"+seconds+"</font>"+"S "; 
+    } 
+    show_date_time(); 
+</script>]]></content>
+    </entry>
+    
+  
 </search>
