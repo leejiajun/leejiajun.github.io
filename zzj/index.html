@@ -42,6 +42,8 @@
 
 
 
+  
+
 
   <link rel="alternate" href="/atom.xml" title="Lee Jiajun (李佳骏)" type="application/atom+xml">
 
@@ -55,25 +57,16 @@
 
 
 
-<meta name="description" content="function show_date_time(){ 
-        window.setTimeout(&quot;show_date_time()&quot;, 1000); 
-        timeold=((new Date()).getTime()-(new Date(&quot;7/4/2013 00:0:0&quot;)).getTime()); 
-        sectimeold=ti">
+<meta name="description" content="function show_date_time(){window.setTimeout(&quot;show_date_time()&quot;,1e3),timeold=(new Date).getTime()-new Date(&quot;7/4/2013 00:0:0&quot;).getTime(),sectimeold=timeold/1e3,secondsold=Math.floor(sectimeold),msPerDay">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Lee Jiajun (李佳骏)">
 <meta property="og:url" content="http://jiajun.org.cn/zzj/index.html">
 <meta property="og:site_name" content="Lee Jiajun (李佳骏)">
-<meta property="og:description" content="function show_date_time(){ 
-        window.setTimeout(&quot;show_date_time()&quot;, 1000); 
-        timeold=((new Date()).getTime()-(new Date(&quot;7/4/2013 00:0:0&quot;)).getTime()); 
-        sectimeold=ti">
+<meta property="og:description" content="function show_date_time(){window.setTimeout(&quot;show_date_time()&quot;,1e3),timeold=(new Date).getTime()-new Date(&quot;7/4/2013 00:0:0&quot;).getTime(),sectimeold=timeold/1e3,secondsold=Math.floor(sectimeold),msPerDay">
 <meta property="og:updated_time" content="2016-08-21T11:41:12.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Lee Jiajun (李佳骏)">
-<meta name="twitter:description" content="function show_date_time(){ 
-        window.setTimeout(&quot;show_date_time()&quot;, 1000); 
-        timeold=((new Date()).getTime()-(new Date(&quot;7/4/2013 00:0:0&quot;)).getTime()); 
-        sectimeold=ti">
+<meta name="twitter:description" content="function show_date_time(){window.setTimeout(&quot;show_date_time()&quot;,1e3),timeold=(new Date).getTime()-new Date(&quot;7/4/2013 00:0:0&quot;).getTime(),sectimeold=timeold/1e3,secondsold=Math.floor(sectimeold),msPerDay">
 
 
 
@@ -207,35 +200,7 @@
   <div id="posts" class="posts-expand">
     
     
-      <center padding-bottom:-10000px="">
-    <span id="love_time" style="color:#696969"></span>
-</center>
-
-<script language="javascript"> 
-    function show_date_time(){ 
-        window.setTimeout("show_date_time()", 1000); 
-        timeold=((new Date()).getTime()-(new Date("7/4/2013 00:0:0")).getTime()); 
-        sectimeold=timeold/1000 
-        secondsold=Math.floor(sectimeold); 
-        msPerDay=24*60*60*1000
-        e_daysold=timeold/msPerDay 
-        daysold=Math.floor(e_daysold); 
-        e_hrsold=(e_daysold-daysold)*24; 
-        hrsold=Math.floor(e_hrsold); 
-        e_minsold=(e_hrsold-hrsold)*60; 
-        minsold=Math.floor((e_hrsold-hrsold)*60); 
-        seconds=Math.floor((e_minsold-minsold)*60); 
-        if(seconds<10)seconds='0'+seconds
-        if(minsold<10)minsold='0'+minsold
-        if(hrsold<10)hrsold='0'+hrsold
-        love_time.innerHTML=" "+
-        "<font size='5'>"+daysold+"</font>"+"D   "+
-        "<font size='5'>"+hrsold +"</font>"+"H   "+
-        "<font size='5'>"+minsold+"</font>"+"M   "+
-        "<font size='5'>"+seconds+"</font>"+"S "; 
-    } 
-    show_date_time(); 
-</script>
+      <center padding-bottom:-10000px=""><span id="love_time" style="color:#696969"></span></center><script language="javascript">function show_date_time(){window.setTimeout("show_date_time()",1e3),timeold=(new Date).getTime()-new Date("7/4/2013 00:0:0").getTime(),sectimeold=timeold/1e3,secondsold=Math.floor(sectimeold),msPerDay=864e5,e_daysold=timeold/msPerDay,daysold=Math.floor(e_daysold),e_hrsold=24*(e_daysold-daysold),hrsold=Math.floor(e_hrsold),e_minsold=60*(e_hrsold-hrsold),minsold=Math.floor(60*(e_hrsold-hrsold)),seconds=Math.floor(60*(e_minsold-minsold)),seconds<10&&(seconds="0"+seconds),minsold<10&&(minsold="0"+minsold),hrsold<10&&(hrsold="0"+hrsold),love_time.innerHTML=" <font size='5'>"+daysold+"</font>D   <font size='5'>"+hrsold+"</font>H   <font size='5'>"+minsold+"</font>M   <font size='5'>"+seconds+"</font>S "}show_date_time();</script>
     
   </div>
 
