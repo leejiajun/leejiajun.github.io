@@ -4,9 +4,9 @@
   <subtitle>Homepage</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="jiajun.org.cn/"/>
+  <link href="http://jiajun.org.cn/"/>
   <updated>2016-08-05T07:01:57.000Z</updated>
-  <id>jiajun.org.cn/</id>
+  <id>http://jiajun.org.cn/</id>
   
   <author>
     <name>Lee Jiajun</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Aoubut Me</title>
-    <link href="jiajun.org.cn/2016/07/30/Aoubut%20Me/"/>
-    <id>jiajun.org.cn/2016/07/30/Aoubut Me/</id>
+    <link href="http://jiajun.org.cn/2016/07/30/Aoubut%20Me/"/>
+    <id>http://jiajun.org.cn/2016/07/30/Aoubut Me/</id>
     <published>2016-07-30T15:59:59.000Z</published>
     <updated>2016-08-05T07:01:57.000Z</updated>
     
@@ -37,8 +37,8 @@
   
   <entry>
     <title>Contact</title>
-    <link href="jiajun.org.cn/2016/07/30/Contact/"/>
-    <id>jiajun.org.cn/2016/07/30/Contact/</id>
+    <link href="http://jiajun.org.cn/2016/07/30/Contact/"/>
+    <id>http://jiajun.org.cn/2016/07/30/Contact/</id>
     <published>2016-07-30T12:00:01.000Z</published>
     <updated>2016-08-05T07:01:50.000Z</updated>
     
