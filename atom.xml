@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jiajun.org.cn/"/>
-  <updated>2018-09-03T12:36:51.000Z</updated>
+  <updated>2018-09-17T02:24:27.000Z</updated>
   <id>http://jiajun.org.cn/</id>
   
   <author>
@@ -20,9 +20,9 @@
     <link href="http://jiajun.org.cn/2019/01/01/Aoubut%20Me/"/>
     <id>http://jiajun.org.cn/2019/01/01/Aoubut Me/</id>
     <published>2019-01-01T15:59:59.000Z</published>
-    <updated>2018-09-03T12:36:51.000Z</updated>
+    <updated>2018-09-17T02:24:27.000Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="/img/jiajun.jpg" width="150" style="float:left; margin-top:8px; margin-right:20px; margin-left:2px" alt="jiajun"> I am a Ph.D. Student at <a href="http://www.carch.ac.cn" target="_blank" rel="external">State Key Laboratory of Computer Architecture</a> in <a href="http://www.ict.ac.cn" target="_blank" rel="external">Institute of Computing Technology</a> of <a href="http://www.cas.cn" target="_blank" rel="external">Chinese Academy of Sciences</a> under supervision of Professor Yinhe Han and Professor Xiaowei Li. I am interested in HW/SW Co-design of Artificial Intelligence. Before coming to CAS, I obtained my Bachelor degree in 2016 from <a href="http://xgxy.cug.edu.cn" target="_blank" rel="external">Department of Information Engineering</a>, <a href="http://www.cug.edu.cn/new/" target="_blank" rel="external">China University of Geosciences(Wuhan)</a>. For more detailed personal information, please refer to my <a href="/pdf/jiajun_cv.pdf">CV</a> (2012-2016).</p>
+    <content type="html"><![CDATA[<p><img src="/img/jiajun.jpg" width="150" style="float:left; margin-top:8px; margin-right:20px; margin-left:2px" alt="jiajun"> I am a Ph.D. Student at <a href="http://www.carch.ac.cn" target="_blank" rel="external">State Key Laboratory of Computer Architecture</a> in <a href="http://www.ict.ac.cn" target="_blank" rel="external">Institute of Computing Technology</a> of <a href="http://www.cas.cn" target="_blank" rel="external">Chinese Academy of Sciences</a> under supervision of Professor Yinhe Han and Professor Xiaowei Li. I am interested in HW/SW Co-design of Artificial Intelligence. Before coming to CAS, I obtained my Bachelor degree in 2016 from <a href="http://xgxy.cug.edu.cn" target="_blank" rel="external">Department of Information Engineering</a>, <a href="http://www.cug.edu.cn/new/" target="_blank" rel="external">China University of Geosciences(Wuhan)</a>. For more detailed personal information, please refer to my <a href="/pdf/jiajun_cv.pdf">résumé</a> (2012-2016).</p>
 ]]></content>
     
     <summary type="html">
@@ -39,14 +39,14 @@
     <link href="http://jiajun.org.cn/2018/09/02/Publications/"/>
     <id>http://jiajun.org.cn/2018/09/02/Publications/</id>
     <published>2018-09-02T15:59:59.000Z</published>
-    <updated>2018-09-03T12:31:50.000Z</updated>
+    <updated>2018-09-17T02:25:10.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Journals"><a href="#Journals" class="headerlink" title="Journals"></a>Journals</h1><ul>
 <li>Cong Shi, <strong>Jiajun Li</strong>, Ying Wang, and Gang Luo. Exploiting Lightweight Statistical Learning for Event-Based Vision Processing. <em>In IEEE Acess</em>, 2018. [<a href="/pdf/Exploiting_Lightweight_Statistical_Learning_for_Event-Based_Vision_Processing.pdf">PDF</a>]</li>
 </ul>
 <h1 id="Conferences"><a href="#Conferences" class="headerlink" title="Conferences"></a>Conferences</h1><ul>
 <li>Cheng Wang, Ying Wang, Yinhe Han, Lili Song, Zhenyu Quan, <strong>Jiajun Li</strong>, and Xiaowei Li. CNN-based object detection solutions for embedded heterogeneous multi-core SoCs. <em>In IEEE/ACM Proceedings of 22nd Asia and South Pacific Design Automation Conference</em> (ASP-DAC’17). [<a href="/pdf/CNN-based_object_detection_solutions_for_embedded_heterogeneous_multi-core_SoCs.pdf">PDF</a>]</li>
-<li>Ying Wang, Zhenyu Quan, <strong>Jiajun Li</strong>, Yinhe Han, Huawei Li, and Xiaowei Li. A Retrospective Evaluation of Energy-Efficient Object Detection Solutions for Embedded Devices. *In IEEE/ACM Proceedings of 2018 Design, Automation and Test in Europe conference (DATE’18). [<a href="/pdf/A_retrospective_evaluation_of_energy-efficient_object_detection_solutions_on_embedded_devices.pdf">PDF</a>]</li>
+<li>Ying Wang, Zhenyu Quan, <strong>Jiajun Li</strong>, Yinhe Han, Huawei Li, and Xiaowei Li. A Retrospective Evaluation of Energy-Efficient Object Detection Solutions for Embedded Devices. <em>In IEEE/ACM Proceedings of 2018 Design, Automation and Test in Europe conference</em> (DATE’18). [<a href="/pdf/A_retrospective_evaluation_of_energy-efficient_object_detection_solutions_on_embedded_devices.pdf">PDF</a>]</li>
 <li><strong>Jiajun Li</strong>, Ying Wang, Yinhe Han, and Xiaowei Li. Training Effective Binarized Neural Networks for Intelligent Edge Devices Neural Network Accelerator. <em>In Proceedings of Chinese Testing Conference</em> (CTC’18).</li>
 <li><strong>Jiajun Li</strong>, Ying Wang, Bosheng Liu, Yinhe Han, and Xiaowei Li. Simulate-the-hardware: Training Accurate Binarized Neural Networks for Low-Precision Neural Accelerators. <em>In IEEE/ACM Proceedings of 24th Asia and South Pacific Design Automation Conference</em> (ASP-DAC’19).</li>
 <li>Bosheng Liu, Xiaoming Chen, <strong>Jiajun Li</strong>, and Yinhe Han. Addressing the Issue of Processing Element Under-Utilization in General-Purpose Systolic Deep Learning Accelerators. <em>In IEEE/ACM Proceedings of 24th Asia and South Pacific Design Automation Conference</em> (ASP-DAC’19).</li>
