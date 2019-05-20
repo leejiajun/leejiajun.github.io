@@ -6,7 +6,7 @@
     <entry>
       <title><![CDATA[ABOUT ME]]></title>
       <url>http://jiajun.org.cn/2019/01/01/Aoubut%20Me/</url>
-      <content type="html"><![CDATA[<p><img src="/img/jiajun2.jpg" width="155" style="float:left; margin-top:8px; margin-right:15px; margin-left:2px" alt="jiajun"> I am a Ph.D. Student at <a href="http://www.carch.ac.cn" target="_blank" rel="external">State Key Laboratory of Computer Architecture</a> in <a href="http://www.ict.ac.cn" target="_blank" rel="external">Institute of Computing Technology</a> of <a href="http://www.cas.cn" target="_blank" rel="external">Chinese Academy of Sciences</a> under supervision of Professor Yinhe Han and Professor Xiaowei Li. I am interested in HW/SW Co-design of Artificial Intelligence. Before coming to CAS, I obtained my Bachelor degree in 2016 from <a href="http://xgxy.cug.edu.cn" target="_blank" rel="external">Department of Information Engineering</a>, <a href="http://www.cug.edu.cn/new/" target="_blank" rel="external">China University of Geosciences(Wuhan)</a>. For more detailed personal information, please refer to my <a href="/pdf/jiajun_cv.pdf">résumé</a> (2012-2016).</p>
+      <content type="html"><![CDATA[<p><img src="/img/jiajun2.jpg" width="155" style="float:left; margin-top:8px; margin-right:15px; margin-left:2px" alt="jiajun"> I am a Ph.D. Student at <a href="http://www.carch.ac.cn" target="_blank" rel="external">State Key Laboratory of Computer Architecture</a> in <a href="http://www.ict.ac.cn" target="_blank" rel="external">Institute of Computing Technology</a> of <a href="http://www.cas.cn" target="_blank" rel="external">Chinese Academy of Sciences</a> under supervision of Professor Yinhe Han and Professor Xiaowei Li. I am interested in HW/SW Co-design of Artificial Intelligence. Before coming to CAS, I obtained my Bachelor degree in 2016 from <a href="http://xgxy.cug.edu.cn" target="_blank" rel="external">Department of Information Engineering</a>, <a href="http://www.cug.edu.cn/new/" target="_blank" rel="external">China University of Geosciences(Wuhan)</a>. For more detailed personal information, please refer to my <a href="/pdf/jiajun_cv2.pdf">résumé</a> (2012-2019)  <del><a href="/pdf/jiajun_cv.pdf">résumé</a> (2012-2016)</del>.</p>
 ]]></content>
     </entry>
     
@@ -44,6 +44,13 @@
     </entry>
     
     <entry>
+      <title><![CDATA[PAGEVIEWER ]]></title>
+      <url>http://jiajun.org.cn/2016/01/01/Pageviewer/</url>
+      <content type="html"><![CDATA[<p><img src="//clustrmaps.com/map_v2.png?cl=262626&w=400&t=tt&d=ReR91M6irjnG83fYt6MLp1LxzJK2fo_-0EMAJ3ZOR7g&co=ffffff&ct=737373" ,="" style="border:0; width: 400px; border-radius:100px; overflow: hidden;"></p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[CONTACT]]></title>
       <url>http://jiajun.org.cn/2016/01/01/Contact/</url>
       <content type="html"><![CDATA[<h1 id="Address"><a href="#Address" class="headerlink" title="Address"></a>Address</h1><p>&#160; &#160; &#160; &#160;No.6 Kexueyuan South Road Zhongguancun,<br>&#160; &#160; &#160; &#160;Haidian District Beijing,<br>&#160; &#160; &#160; &#160;China, 100190</p>
@@ -53,13 +60,6 @@
 <!--center>
 <i class="fa fa-github" aria-hidden="true" style="margin-right:15px;"> <a href="https://github.com/leejiajun">GitHub</a></i>    <i class="fa fa-weibo" aria-hidden="true" style="margin-right:15px;"> <a href="http://weibo.com/p/1005052841242582">Weibo</a></i>    <i class="fa fa-facebook-official" aria-hidden="true" style="margin-right:15px;"> <a href="https://www.facebook.com/profile.php?id=100006144016792">Facebook</a></i>    <i class="fa fa-linkedin" aria-hidden="true" style="margin-right:15px;"> <a href="https://www.linkedin.com/in/leejiajun">LinkedIn</a></i>    <i class="fa" aria-hidden="true" style="margin-right:15px;">知 <a href="https://www.zhihu.com/people/leejiajun">ZhiHu</a></i>    <i class="fa fa-rss" aria-hidden="true" style="margin-right:15px;"> <a href="http://blog.csdn.net/jiajunlee">CSDN</a></i>
 </center-->
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[PAGEVIEWER ]]></title>
-      <url>http://jiajun.org.cn/2016/01/01/Pageviewer/</url>
-      <content type="html"><![CDATA[<p><img src="//clustrmaps.com/map_v2.png?cl=262626&w=400&t=tt&d=ReR91M6irjnG83fYt6MLp1LxzJK2fo_-0EMAJ3ZOR7g&co=ffffff&ct=737373" ,="" style="border:0; width: 400px; border-radius:100px; overflow: hidden;"></p>
 ]]></content>
     </entry>
     
