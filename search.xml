@@ -5,7 +5,7 @@
     
     <entry>
       <title><![CDATA[ABOUT ME]]></title>
-      <url>http://jiajun.org.cn/2019/01/01/Aoubut%20Me/</url>
+      <url>http://jiajun.org.cn/2019/01/02/Aoubut%20Me/</url>
       <content type="html"><![CDATA[<p><a href="/img/jiajun2_high.jpg"><img src="/img/jiajun2.jpg" width="145" style="float:left; margin-top:8px; margin-right:15px; margin-left:2px" alt="jiajun"></a>  I am a Ph.D. student at <a href="http://www.ict.ac.cn" target="_blank" rel="noopener">the Institute of Computing Technology</a> of <a href="http://www.cas.cn" target="_blank" rel="noopener">Chinese Academy of Sciences</a> under the supervision of Professor Yinhe Han and Professor Xiaowei Li. Before coming to CAS, I obtained my Bachelor degree in 2016 from <a href="http://xgxy.cug.edu.cn" target="_blank" rel="noopener">the Department of Information Engineering</a>, <a href="http://www.cug.edu.cn/new/" target="_blank" rel="noopener">China University of Geosciences (Wuhan)</a>. My research interests primarily focus on the area of Hardware/Software Co-design for reducing power and improving performance with specialized brain-inspired accelerators. </p>
 ]]></content>
       
@@ -22,7 +22,7 @@
 <h1 id="Conferences"><a href="#Conferences" class="headerlink" title="Conferences"></a>Conferences</h1><ul>
 <li>Bosheng Liu, Xiaoming Chen, Yinhe Han, Ying Wang, <strong>Jiajun Li</strong>, Haobo Xu, Xiaowei Li. Search-free Accelerator for Sparse Convolutional Neural Networks. <em>In IEEE/ACM Proceedings of 25th Asia and South Pacific Design Automation Conference</em> (ASP-DAC’20). </li>
 <li>Haobo Xu, Ying Wang, Yujie Wang, <strong>Jiajun Li</strong>, Bosheng Liu and Yinhe Han. ACG-Engine: An Inference Accelerator for Content Generative Neural Networks. <em>In IEEE/ACM Proceedings of 2019 International Conference On Computer Aided Design</em> (ICCAD’19).</li>
-<li><strong>Jiajun Li</strong>, Ying Wang, Yujie Wang, Haobo Xu, Bosheng Liu, Yinhe Han, Xiaowei Li. TURNT: Learning Multiply-Free Neural Networks for Low-Power Keyword Spotting Accelerators. (Poster). <em>2019 International Conference On Computer Aided Design</em> (ICCAD’19).</li>
+<li><strong>Jiajun Li</strong>, Ying Wang, Yujie Wang, Haobo Xu, Bosheng Liu, Yinhe Han, Xiaowei Li. TURNT: Learning Multiply-Free Neural Networks for Low-Power Keyword Spotting Accelerators. (Poster). <em>2019 International Conference on Computer Design</em> (ICCD’19).</li>
 <li><strong>Jiajun Li</strong>, Ying Wang, Bosheng Liu, Yinhe Han, and Xiaowei Li. Simulate-the-hardware: Training Accurate Binarized Neural Networks for Low-Precision Neural Accelerators. <em>In IEEE/ACM Proceedings of 24th Asia and South Pacific Design Automation Conference</em> (ASP-DAC’19).  [<a href="/pdf/Simulate-the-hardware.pdf">PDF</a>]</li>
 <li>Bosheng Liu, Xiaoming Chen, Ying Wang, Yinhe Han, <strong>Jiajun Li</strong>, Haobo Xu, Xiaowei Li. Addressing the Issue of Processing Element Under-Utilization in General-Purpose Systolic Deep Learning Accelerators. <em>In IEEE/ACM Proceedings of 24th Asia and South Pacific Design Automation Conference</em> (ASP-DAC’19).  [<a href="/pdf/Addressing_the_Issue.pdf">PDF</a>]</li>
 <li><strong>Jiajun Li</strong>, Ying Wang, Yinhe Han, and Xiaowei Li. Training Effective Binarized Neural Networks for Intelligent Edge Devices Neural Network Accelerator. <em>In Proceedings of Chinese Testing Conference</em> (CTC’18).</li>
@@ -39,7 +39,7 @@
     
     <entry>
       <title><![CDATA[SERVICES]]></title>
-      <url>http://jiajun.org.cn/2018/09/02/Services/</url>
+      <url>http://jiajun.org.cn/2018/09/03/Services/</url>
       <content type="html"><![CDATA[<h1 id="Reviewer-of"><a href="#Reviewer-of" class="headerlink" title="Reviewer of"></a>Reviewer of</h1><ul>
 <li>IEEE Transactions on Neural Networks and Learning Systems (TNNLS)</li>
 <li>ACM Knowledge Discovery and Data Mining (KDD)</li>
@@ -52,7 +52,7 @@
     
     <entry>
       <title><![CDATA[SELECTED HONOR & AWARD]]></title>
-      <url>http://jiajun.org.cn/2018/09/01/Honor&amp;Award/</url>
+      <url>http://jiajun.org.cn/2018/09/02/Honor&amp;Award/</url>
       <content type="html"><![CDATA[<ul>
 <li>Merit Student, University of Chinese Academy of Sciences, Jul 2017, Jun 2018, May 2019.</li>
 <li>Director Excellent Scholarship, Institute of Computing Technology of Chinese Academy of Sciences, Jan 2019.</li>
