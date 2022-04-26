@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://jiajun.org.cn/2018/11/01/Education/</loc>
+    
+    <lastmod>2022-04-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jiajun.org.cn/2013/07/03/OurDays/</loc>
+    
+    <lastmod>2022-04-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jiajun.org.cn/2016/01/01/Contact/</loc>
+    
+    <lastmod>2022-04-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://jiajun.org.cn/2018/09/03/Publications/</loc>
     
     <lastmod>2022-04-26</lastmod>
@@ -12,15 +39,6 @@
   
   <url>
     <loc>http://jiajun.org.cn/2018/09/01/Honor&Award/</loc>
-    
-    <lastmod>2022-04-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jiajun.org.cn/2018/11/01/Education/</loc>
     
     <lastmod>2022-04-26</lastmod>
     
@@ -41,24 +59,6 @@
     <loc>http://jiajun.org.cn/2018/09/02/Services/</loc>
     
     <lastmod>2022-04-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jiajun.org.cn/2016/01/01/Contact/</loc>
-    
-    <lastmod>2019-07-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jiajun.org.cn/zzj/index.html</loc>
-    
-    <lastmod>2018-08-27</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
