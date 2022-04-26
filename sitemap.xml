@@ -2,52 +2,86 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://jiajun.org.cn/2018/09/03/Publications/</loc>
+    <loc>http://jiajun.org.cn/2018/09/01/Honor&Award/</loc>
     
-    <lastmod>2020-12-12T15:18:11.382Z</lastmod>
+    <lastmod>2022-04-26</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://jiajun.org.cn/2018/09/02/Services/</loc>
+    <loc>http://jiajun.org.cn/2018/09/03/Publications/</loc>
     
-    <lastmod>2020-03-30T06:03:14.000Z</lastmod>
+    <lastmod>2022-04-26</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jiajun.org.cn/2018/11/01/Education/</loc>
+    
+    <lastmod>2022-04-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://jiajun.org.cn/2019/01/01/Aoubut%20Me/</loc>
     
-    <lastmod>2019-07-15T09:55:56.000Z</lastmod>
+    <lastmod>2022-04-26</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jiajun.org.cn/2018/09/02/Services/</loc>
+    
+    <lastmod>2022-04-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://jiajun.org.cn/2016/01/01/Contact/</loc>
     
-    <lastmod>2019-07-15T03:06:46.000Z</lastmod>
+    <lastmod>2019-07-15</lastmod>
     
-  </url>
-  
-  <url>
-    <loc>http://jiajun.org.cn/2018/09/01/Honor&Award/</loc>
-    
-    <lastmod>2019-07-12T09:10:21.000Z</lastmod>
-    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://jiajun.org.cn/zzj/index.html</loc>
     
-    <lastmod>2018-08-27T07:11:25.000Z</lastmod>
+    <lastmod>2018-08-27</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://jiajun.org.cn/404.html</loc>
     
-    <lastmod>2016-07-30T08:08:16.000Z</lastmod>
+    <lastmod>2016-07-30</lastmod>
     
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
+  
+
+  <url>
+    <loc>http://jiajun.org.cn/</loc>
+    <lastmod>2022-04-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  
+
   
 </urlset>
