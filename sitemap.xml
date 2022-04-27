@@ -2,45 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://jiajun.org.cn/2016/01/01/Contact/</loc>
-    
-    <lastmod>2022-04-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jiajun.org.cn/2018/11/01/Education/</loc>
-    
-    <lastmod>2022-04-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jiajun.org.cn/2018/09/03/Publications/</loc>
-    
-    <lastmod>2022-04-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jiajun.org.cn/2018/09/01/Honor&Award/</loc>
-    
-    <lastmod>2022-04-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://jiajun.org.cn/2019/01/01/Aoubut%20Me/</loc>
     
-    <lastmod>2022-04-26</lastmod>
+    <lastmod>2022-04-27</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -49,7 +13,43 @@
   <url>
     <loc>http://jiajun.org.cn/2018/09/02/Services/</loc>
     
-    <lastmod>2022-04-26</lastmod>
+    <lastmod>2022-04-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jiajun.org.cn/2018/09/03/Publications/</loc>
+    
+    <lastmod>2022-04-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jiajun.org.cn/2018/09/01/Honor&Award/</loc>
+    
+    <lastmod>2022-04-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jiajun.org.cn/2018/11/01/Education/</loc>
+    
+    <lastmod>2022-04-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jiajun.org.cn/2016/01/01/Contact/</loc>
+    
+    <lastmod>2022-04-27</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -67,7 +67,7 @@
 
   <url>
     <loc>http://jiajun.org.cn/</loc>
-    <lastmod>2022-04-26</lastmod>
+    <lastmod>2022-04-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
