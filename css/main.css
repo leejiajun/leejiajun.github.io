@@ -363,11 +363,13 @@ body {
   font-size: 26px;
   text-align: center;
   word-break: break-word;
-  font-weight: 400;
+  /* font-weight: 400; */
+  font-weight: bold;
 }
 @media (max-width: 767px) {
   .posts-expand .post-title {
     font-size: 22px;
+    font-weight: bold;
   }
 }
 .posts-expand .post-title-link {
