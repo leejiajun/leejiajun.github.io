@@ -9,7 +9,7 @@
       <content type="html"><![CDATA[<!-- <div style="padding-right:100px; padding-left:100px"> -->
 <!-- <div style="margin-right:100px; margin-left:100px"> -->
 <!-- <div style="max-width:600px">  -->
-<p><a href="/img/jiajun2_high.jpg"><img src="/img/jiajun2.jpg" width="135" style="float:left; margin-top: 5px; margin-right:10px; margin-left:10px; margin-bottom: 0px; border-radius: 15px" alt="jiajun"></a> I am a Ph.D. student at <a href="http://www.ict.ac.cn" target="_blank" rel="noopener">the Institute of Computing Technology</a> of <a href="http://www.cas.cn" target="_blank" rel="noopener">Chinese Academy of Sciences</a> under the supervision of Professor Yinhe Han and Professor Xiaowei Li. My research interests primarily focus on the area of Hardware/Software Co-design for reducing power and improving performance with specialized brain-inspired accelerators. </p>
+<p><a href="/img/jiajun2_high.jpg"><img src="/img/jiajun2.jpg" width="135" style="float:left; margin-top: 5px; margin-right:10px; margin-left:0px; margin-bottom: 0px; border-radius: 15px" alt="jiajun"></a> I am a Ph.D. student at <a href="http://www.ict.ac.cn" target="_blank" rel="noopener">the Institute of Computing Technology</a> of <a href="http://www.cas.cn" target="_blank" rel="noopener">Chinese Academy of Sciences</a> under the supervision of Professor Yinhe Han and Professor Xiaowei Li. My research interests primarily focus on the area of Hardware/Software Co-design for reducing power and improving performance with specialized brain-inspired accelerators. </p>
 ]]></content>
       
         
@@ -35,62 +35,72 @@
 <div>
    <div style="position: relative; margin-bottom: 10px;">
       <h2 style="font-weight:bold;">University of Chinese Academy of Sciences</h2>
-      <h4 style="position: absolute; top: -16px; right: 0 ">Sep 2016 - Jun 2022</h4>
+      <h4 style="position: absolute; top: 12px; right: 0 ">Sep 2016 - Jun 2022</h4>
       <ul>
-      <li style="margin-top: -12px">Ph.D. Student</li>
-      <li style="margin-top: -12px">Supervisor: Professor Xiaowei Li and Professor Yinhe Han</li>
+      <li style="margin-top: -16px">Ph.D. Student</li>
+      <li style="margin-top: -12px">Supervisor:&#160; 
+         <a href="https://ieeexplore.ieee.org/author/37280862300" target="_blank" rel="noopener"><i>Prof. Xiaowei Li</i></a>
+         &#160;and&#160;
+         <a href="https://ieeexplore.ieee.org/author/37280848500" target="_blank" rel="noopener"><i>Prof. Yinhe Han</i></a>
+      </li>
       </ul>
    </div>
 
    <div style="position: relative; margin-bottom: 10px;">
       <h2 style="font-weight:bold;">Duke University</h2>
       <!-- <h3>Ph.D. Student</h3> -->
-      <h4 style="position: absolute; top: -16px; right: 0 ">Oct 2019 - Oct 2020</h4>
+      <h4 style="position: absolute; top: 12px; right: 0 ">Oct 2019 - Oct 2020</h4>
       <ul>
-      <li style="margin-top: -12px">Visiting Ph.D. Student</li>
-      <li style="margin-top: -12px">Co-Advisor: Professor Yiran Chen</li>
+      <li style="margin-top: -16px">Visiting Ph.D. Student</li>
+      <li style="margin-top: -12px">Co-Advisor:&#160;
+         <a href="https://ece.duke.edu/faculty/yiran-chen" target="_blank" rel="noopener"><i>Prof. Yiran Chen</i></a>
+      </li>
       </ul>
       <!-- Electrical Engineering and Computer Sciences -->
    </div>
 
    <div style="position: relative; margin-bottom: 10px;">
-      <h2 style="font-weight:bold;">University of Chinese Academy of Sciences</h2>
-      <h4 style="position: absolute; top: -16px; right: 0">Sep 2016 - Jun 2022</h4>
+      <h2 style="font-weight:bold;">China University of Geosciences (Wuhan)</h2>
+      <h4 style="position: absolute; top: 12px; right: 0">Sep 2016 - Jun 2022</h4>
       <ul>
-      <li style="margin-top: -12px">Undergraduate Student</li>
-      <li style="margin-top: -12px">Advisor: Professor Zhong Xie and Professor Ying Huang</li>
+      <li style="margin-top: -16px">Undergraduate Student</li>
+      <li style="margin-top: -12px">Advisor:&#160; 
+         <a href="http://grzy.cug.edu.cn/xiezhong" target="_blank" rel="noopener"><i>Prof. Zhong Xie</i></a>
+         &#160;and&#160;
+         <a href="http://grzy.cug.edu.cn/huangying" target="_blank" rel="noopener"><i>Prof. Ying Huang</i></a>
+      </li>
       </ul>
       <!-- Electrical Engineering and Computer Sciences -->
    </div>
-</div><!--// .yui-gf -->
+</div>
 
 <!-- <div style="text-align: left; float: right">Ph.D. Student</div> -->
 
    <!-- - Ph.D. Student, 
-   - Supervisor: Professor Xiaowei Li and Professor Yinhe Han -->
+   - Supervisor: Prof. Xiaowei Li and Prof. Yinhe Han -->
 
 <!-- ### Duke University
    - Oct 2019 - Oct 2020
    - Visiting Ph.D. Student, Electrical Engineering and Computer Sciences
-   - Co-Advisor: Professor Yiran Chen
+   - Co-Advisor: Prof. Yiran Chen
 
 ### China University of Geosciences (Wuhan)
    - Sep 2012 - Jun 2016
    - Undergraduate Student, Information Engineering
-   - Advisor: Professor Zhong Xie and Professor Ying Huang -->
+   - Advisor: Prof. Zhong Xie and Prof. Ying Huang -->
 
 <!-- # University of Chinese Academy of Sciences
 - Sep 2016 - Jun 2022
 - Ph.D. Student
 - Institute of Computing Technology
-- Supervisor: Professor Xiaowei Li and Professor Yinhe Han
+- Supervisor: Prof. Xiaowei Li and Prof. Yinhe Han
 
 -  Sep 2016 - Jun 2022, Ph.D. Student, Institute of Computing Technology of [Chinese Academy of Sciences][2]
-   *Supervisor: Professor Xiaowei Li and Professor Yinhe Han*
+   *Supervisor: Prof. Xiaowei Li and Prof. Yinhe Han*
 -  Oct 2019 - Oct 2020, Visiting Ph.D. Student, Electrical Engineering and Computer Sciences, [Duke University][7].
-   *Co-Advisor: Professor Yiran Chen*
+   *Co-Advisor: Prof. Yiran Chen*
 -  Sep 2012 - Jun 2016, B.S., Information Engineering, [China University of Geosciences (Wuhan)][5].
-   *Advisor: Professor Zhong Xie and Professor Ying Huang* -->
+   *Advisor: Prof. Zhong Xie and Prof. Ying Huang* -->
 
 ]]></content>
       
@@ -181,12 +191,41 @@
     <entry>
       <title><![CDATA[CONTACT]]></title>
       <url>http://jiajun.org.cn/2016/01/01/Contact/</url>
-      <content type="html"><![CDATA[<h2 id="Address"><a href="#Address" class="headerlink" title="Address"></a><strong>Address</strong></h2><p>&#160; &#160; &#160; &#160;No.6 Kexueyuan South Road Zhongguancun,<br>&#160; &#160; &#160; &#160;Haidian District Beijing,<br>&#160; &#160; &#160; &#160;China, 100190</p>
-<h2 id="Email"><a href="#Email" class="headerlink" title="Email"></a><strong>Email</strong></h2><p>&#160; &#160; &#160; &#160;lijiajun01 [at] ict [dot] ac [dot] cn</p>
-<h2 id="Socail"><a href="#Socail" class="headerlink" title="Socail"></a><strong>Socail</strong></h2><p>&#160; &#160; &#160; &#160;<a href="https://www.facebook.com/profile.php?id=100006144016792" target="_blank" rel="noopener">Fackbook</a>&#160; &#160;<a href="https://www.zhihu.com/people/leejiajun" target="_blank" rel="noopener">Zhihu</a>&#160; &#160;<a href="https://www.linkedin.com/in/leejiajun" target="_blank" rel="noopener">LinkedIn</a></p>
-<!-- <center>
-<iframe src="https://free.timeanddate.com/countdown/i8avjika/n196/cf12/cm0/cu4/ct2/cs0/ca2/co0/cr0/ss0/cac555/cpc555/pct/tcfff/fn3/fs100/szw320/szh135/iso2013-07-03T00:00:00/pl20/pr0/pt0/pb0" allowtransparency="true" frameborder="0" width="145" height="28"></iframe>
-</center> -->]]></content>
+      <content type="html"><![CDATA[<h2 id="Address"><a href="#Address" class="headerlink" title="Address"></a><strong>Address</strong></h2><ul>
+<li>No.6 Kexueyuan South Road Zhongguancun,</li>
+<li>Haidian District Beijing, </li>
+<li>China, 100190</li>
+</ul>
+<h2 id="Email"><a href="#Email" class="headerlink" title="Email"></a><strong>Email</strong></h2><ul>
+<li>lijiajun01 [at] ict [dot] ac [dot] cn</li>
+</ul>
+<h2 id="Socail"><a href="#Socail" class="headerlink" title="Socail"></a><strong>Socail</strong></h2><ul>
+<li><a href="https://www.facebook.com/profile.php?id=100006144016792" target="_blank" rel="noopener">Fackbook</a> &#160; &#160; <a href="https://www.zhihu.com/people/leejiajun" target="_blank" rel="noopener">Zhihu</a> &#160; &#160; <a href="https://www.linkedin.com/in/leejiajun" target="_blank" rel="noopener">LinkedIn</a></li>
+</ul>
+<!-- <div style="position: relative; margin-bottom: 10px;">
+  <h2 style="font-weight:bold;">Address</h2>
+  <ul style="list-style-type: none">
+  <li style="margin-top: -16px">No.6 Kexueyuan South Road Zhongguancun,</li>
+  <li style="margin-top: -12px">Haidian District Beijing, </li>
+  <li style="margin-top: -12px">China, 100190 </li>
+  </ul>
+</div>
+<div style="position: relative; margin-bottom: 10px;">
+  <h2 style="font-weight:bold;">Email</h2>
+  <ul style="list-style-type: none">
+  <li style="margin-top: -16px">lijiajun01 [at] ict [dot] ac [dot] cn</li>
+  </ul>
+</div>
+<div style="position: relative; margin-bottom: 10px;">
+  <h2 style="font-weight:bold;">Email</h2>
+  <ul style="list-style-type: none">
+  <li style="margin-top: -16px">
+  <a style="margin-right: 16px" href="https://www.facebook.com/profile.php?id=100006144016792">Fackbook</a>
+  <a style="margin-right: 16px" href="https://www.zhihu.com/people/leejiajun">Zhihu</a>
+  <a style="margin-right: 16px" href="https://www.linkedin.com/in/leejiajun">LinkedIn</a>
+  </li>
+  </ul>
+</div> -->]]></content>
       
         
     </entry>
