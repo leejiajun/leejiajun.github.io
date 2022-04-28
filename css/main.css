@@ -19,17 +19,17 @@ body {
 @media (min-width: 768px) and (max-width: 991px) {
   body {
     padding-right: 0 !important;
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 @media (min-width: 992px) {
   body {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 @media (min-width: 1200px) {
   body {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 h1,
@@ -38,7 +38,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0;
+  margin-top: 10px;
   padding: 0;
   font-weight: 600;
   line-height: 1.5;
@@ -102,19 +102,46 @@ a:hover {
   color: #222;
   border-bottom-color: #222;
 }
-ul {
-  list-style: none;
-  margin-bottom: 0px;
+ul li {
+  list-style: circle;
+  margin-bottom: 10px;
+}
+@media (max-width: 767px) {
+  ul li {
+    margin-left: -20px;
+  }
 }
 blockquote {
   margin: 0;
   padding: 0;
 }
 img {
-  display: block;
-  margin: auto;
-  max-width: 100%;
-  height: auto;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-right: 2em;
+  margin-top: 0.5em;
+  padding: 1px;
+  border: 2px solid #ddd;
+}
+@media (max-width: 767px) {
+  img {
+    width: 100px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  img {
+    width: 15%;
+  }
+}
+@media (min-width: 992px) {
+  img {
+    width: 20%;
+  }
+}
+@media (min-width: 1200px) {
+  img {
+    width: 22%;
+  }
 }
 hr {
   margin: 0px 0;
@@ -347,21 +374,6 @@ body {
 .posts-expand .post-body h5:hover .header-anchor,
 .posts-expand .post-body h6:hover .header-anchor {
   visibility: visible;
-}
-.posts-expand .post-body ul li {
-  list-style: circle;
-  margin-bottom: 10px;
-}
-@media (max-width: 767px) {
-  .posts-expand .post-body ul li {
-    margin-left: -20px;
-  }
-}
-.posts-expand .post-body img {
-  box-sizing: border-box;
-  margin: auto;
-  padding: 3px;
-  border: 1px solid #ddd;
 }
 .posts-expand .post-title {
   font-size: 26px;
