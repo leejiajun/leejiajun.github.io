@@ -35,12 +35,12 @@
 <div>
    <div style="position: relative; margin-bottom: 10px;">
       <h2 style="font-weight:bold;">University of Chinese Academy of Sciences</h2>
-      <h4 style="position: absolute; top: 12px; right: 0 ">Sep 2016 - Jun 2022</h4>
+      <p style="position: absolute; top: 36px; right: 0">Sep 2016 - Jun 2022</p>
       <ul>
-      <li style="margin-top: -16px">Ph.D. Student</li>
+      <li style="margin-top: -12px">Ph.D. Student</li>
       <li style="margin-top: -12px">Supervisor:&#160; 
          <a href="https://ieeexplore.ieee.org/author/37280862300" target="_blank" rel="noopener"><i>Prof. Xiaowei Li</i></a>
-         &#160;and&#160;
+         ,&#160;&#160;
          <a href="https://ieeexplore.ieee.org/author/37280848500" target="_blank" rel="noopener"><i>Prof. Yinhe Han</i></a>
       </li>
       </ul>
@@ -48,10 +48,9 @@
 
    <div style="position: relative; margin-bottom: 10px;">
       <h2 style="font-weight:bold;">Duke University</h2>
-      <!-- <h3>Ph.D. Student</h3> -->
-      <h4 style="position: absolute; top: 12px; right: 0 ">Oct 2019 - Oct 2020</h4>
+      <p style="position: absolute; top: 36px; right: 0">Oct 2019 - Oct 2020</p>
       <ul>
-      <li style="margin-top: -16px">Visiting Ph.D. Student</li>
+      <li style="margin-top: -12px">Visiting Ph.D. Student</li>
       <li style="margin-top: -12px">Co-Advisor:&#160;
          <a href="https://ece.duke.edu/faculty/yiran-chen" target="_blank" rel="noopener"><i>Prof. Yiran Chen</i></a>
       </li>
@@ -61,12 +60,12 @@
 
    <div style="position: relative; margin-bottom: 10px;">
       <h2 style="font-weight:bold;">China University of Geosciences (Wuhan)</h2>
-      <h4 style="position: absolute; top: 12px; right: 0">Sep 2016 - Jun 2022</h4>
+      <p style="position: absolute; top: 36px; right: 0">Sep 2012 - Jun 2016</p>
       <ul>
-      <li style="margin-top: -16px">Undergraduate Student</li>
+      <li style="margin-top: -12px">Undergraduate Student</li>
       <li style="margin-top: -12px">Advisor:&#160; 
          <a href="http://grzy.cug.edu.cn/xiezhong" target="_blank" rel="noopener"><i>Prof. Zhong Xie</i></a>
-         &#160;and&#160;
+         ,&#160;&#160;
          <a href="http://grzy.cug.edu.cn/huangying" target="_blank" rel="noopener"><i>Prof. Ying Huang</i></a>
       </li>
       </ul>
@@ -191,7 +190,17 @@
     <entry>
       <title><![CDATA[CONTACT]]></title>
       <url>http://jiajun.org.cn/2016/01/01/Contact/</url>
-      <content type="html"><![CDATA[<h2 id="Address"><a href="#Address" class="headerlink" title="Address"></a><strong>Address</strong></h2><ul>
+      <content type="html"><![CDATA[<!-- ## **Address**
+&#160; &#160; &#160; &#160;No.6 Kexueyuan South Road Zhongguancun,
+&#160; &#160; &#160; &#160;Haidian District Beijing, 
+&#160; &#160; &#160; &#160;China, 100190
+
+## **Email** 
+&#160; &#160; &#160; &#160;lijiajun01 [at] ict [dot] ac [dot] cn
+
+## **Socail**
+&#160; &#160; &#160; &#160;[Fackbook](https://www.facebook.com/profile.php?id=100006144016792)&#160; &#160;[Zhihu](https://www.zhihu.com/people/leejiajun)&#160; &#160;[LinkedIn](https://www.linkedin.com/in/leejiajun) -->
+<h2 id="Address"><a href="#Address" class="headerlink" title="Address"></a><strong>Address</strong></h2><ul>
 <li>No.6 Kexueyuan South Road Zhongguancun,</li>
 <li>Haidian District Beijing, </li>
 <li>China, 100190</li>
@@ -200,32 +209,33 @@
 <li>lijiajun01 [at] ict [dot] ac [dot] cn</li>
 </ul>
 <h2 id="Socail"><a href="#Socail" class="headerlink" title="Socail"></a><strong>Socail</strong></h2><ul>
-<li><a href="https://www.facebook.com/profile.php?id=100006144016792" target="_blank" rel="noopener">Fackbook</a> &#160; &#160; <a href="https://www.zhihu.com/people/leejiajun" target="_blank" rel="noopener">Zhihu</a> &#160; &#160; <a href="https://www.linkedin.com/in/leejiajun" target="_blank" rel="noopener">LinkedIn</a></li>
+<li><a href="https://www.facebook.com/profile.php?id=100006144016792" target="_blank" rel="noopener">Fackbook</a> &#160; &#160; <a href="https://www.zhihu.com/people/leejiajun" target="_blank" rel="noopener">Zhihu</a> &#160; &#160; <a href="https://www.linkedin.com/in/leejiajun" target="_blank" rel="noopener">LinkedIn</a><!-- 
+<div style="position: relative; margin-bottom: 10px;">
+<h2 style="font-weight:bold;">Address</h2>
+<ul style="list-style-type: none">
+<li style="margin-top: -16px">No.6 Kexueyuan South Road Zhongguancun,</li>
+<li style="margin-top: -12px">Haidian District Beijing, </li>
+<li style="margin-top: -12px">China, 100190 </li>
 </ul>
-<!-- <div style="position: relative; margin-bottom: 10px;">
-  <h2 style="font-weight:bold;">Address</h2>
-  <ul style="list-style-type: none">
-  <li style="margin-top: -16px">No.6 Kexueyuan South Road Zhongguancun,</li>
-  <li style="margin-top: -12px">Haidian District Beijing, </li>
-  <li style="margin-top: -12px">China, 100190 </li>
-  </ul>
 </div>
 <div style="position: relative; margin-bottom: 10px;">
-  <h2 style="font-weight:bold;">Email</h2>
-  <ul style="list-style-type: none">
-  <li style="margin-top: -16px">lijiajun01 [at] ict [dot] ac [dot] cn</li>
-  </ul>
+<h2 style="font-weight:bold;">Email</h2>
+<ul style="list-style-type: none">
+<li style="margin-top: -16px">lijiajun01 [at] ict [dot] ac [dot] cn</li>
+</ul>
 </div>
 <div style="position: relative; margin-bottom: 10px;">
-  <h2 style="font-weight:bold;">Email</h2>
-  <ul style="list-style-type: none">
-  <li style="margin-top: -16px">
-  <a style="margin-right: 16px" href="https://www.facebook.com/profile.php?id=100006144016792">Fackbook</a>
-  <a style="margin-right: 16px" href="https://www.zhihu.com/people/leejiajun">Zhihu</a>
-  <a style="margin-right: 16px" href="https://www.linkedin.com/in/leejiajun">LinkedIn</a>
-  </li>
-  </ul>
-</div> -->]]></content>
+<h2 style="font-weight:bold;">Email</h2>
+<ul style="list-style-type: none">
+<li style="margin-top: -16px">
+<a style="margin-right: 16px" href="https://www.facebook.com/profile.php?id=100006144016792">Fackbook</a>
+<a style="margin-right: 16px" href="https://www.zhihu.com/people/leejiajun">Zhihu</a>
+<a style="margin-right: 16px" href="https://www.linkedin.com/in/leejiajun">LinkedIn</a>
+</li>
+</ul>
+</div> --></li>
+</ul>
+]]></content>
       
         
     </entry>
